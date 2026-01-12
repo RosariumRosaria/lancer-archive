@@ -1,0 +1,28 @@
+:root {
+    --paper: #f4f4f2;
+    --ink: #1a1a1a;
+    --rule: #000;
+    --alert-red: #8f0001;
+    --tag-gray: #636363;
+
+    --space-1: 0.5rem;
+    --space-2: 1rem;
+    --space-3: 2rem;
+
+    --content-max: 72ch;
+    --rule-width: 2px;
+    --accent-width: 6px;
+    --indent: var(--space-2);
+    --font-body: 'Lancer-Icons-v1.3.ttf', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: var(--space-3);
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    font-size: 18px;
+
+}

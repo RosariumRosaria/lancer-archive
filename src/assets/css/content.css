@@ -1,0 +1,69 @@
+.prose p {
+    margin: 0 0 var(--space-2);
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+    line-height: 1.2;
+    margin: 0 0 var(--space-1);
+}
+
+.prose h2,
+.prose h3 {
+    margin-top: var(--space-1);
+}
+
+.prose h2 {
+    border-left: var(--accent-width) solid var(--alert-red);
+    padding-left: var(--indent);
+}
+
+
+.prose h2:has(+ h4) {
+    margin-bottom: 0;
+}
+
+.prose h2+h4 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--tag-gray);
+    border-left: var(--accent-width) solid var(--alert-red);
+    padding-left: var(--indent);
+    font-style: italic;
+}
+
+
+.prose hr {
+    border: none;
+    border-top: var(--rule-width) solid var(--rule);
+    margin: var(--space-3) 0;
+}
+
+.classification {
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.15em 0.5em;
+    border: var(--rule-width) solid var(--paper);
+}
+
+.redacted {
+    background: #000;
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+    display: inline-block;
+    padding: 0.15em 0.4em;
+    margin: 0 0.1em;
+}
+
+.card {
+    border: var(--rule-width) solid var(--rule);
+    padding: var(--space-2);
+    margin: 0 0 var(--space-3);
+}

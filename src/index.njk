@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+title: Document Archive
+---
+
+<h2>All Documents</h2>
+<ul>
+  {% for doc in collections.documents | sort(attribute="url") %}
+    <li>
+      <a href="{{ doc.url }}">{{ doc.data.title or doc.url }}</a>
+      {% if doc.data.clearance_required %}
+        (Clearance: {{ doc.data.clearance_required }})
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

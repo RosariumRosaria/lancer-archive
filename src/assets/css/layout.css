@@ -1,0 +1,42 @@
+.page {
+    max-width: var(--content-max);
+    margin-inline: auto;
+}
+
+.site-header {
+    background: var(--alert-red);
+    color: #fff;
+
+    padding-block: var(--space-1);
+    padding-inline: var(--space-3);
+
+    margin-inline: calc(-1 * var(--space-3));
+    margin-top: calc(-1 * var(--space-3));
+    margin-bottom: var(--space-3);
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.site-header .classification {
+    margin: 0.25rem 0 0;
+    font-size: 0.85rem;
+}
+
+.site-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    text-decoration: underline;
+}
+
+
+.site-footer {
+    border-top: var(--rule-width) solid var(--rule);
+    padding: var(--space-2) 0;
+    margin-top: var(--space-3);
+}

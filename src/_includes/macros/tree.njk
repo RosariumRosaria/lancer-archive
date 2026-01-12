@@ -1,0 +1,23 @@
+{% macro renderTree(node) %}
+<ul>
+  {% for name, item in node %}
+    <li>
+      {% if item.__doc %}
+        <a href="{{ item.__doc.url }}">
+          {{ item.__doc.data.title or name }}
+        </a>
+
+        {% if item.__doc.data.clearance_required %}
+          (Clearance: {{ item.__doc.data.clearance_required }})
+        {% endif %}
+      {% else %}
+        <strong>{{ name }}</strong>
+      {% endif %}
+
+      {% if item.__children and item.__children | length %}
+        {{ renderTree(item.__children) }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endmacro %}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1 class="site-title">
+    <a href="/">UNION STRATEGIC ARCHIVE</a>
+  </h1>
+  <p class="classification">
+    CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
+  </p>
+</header>
+
+
+<main class="page">
+  <article class="prose">
+    {{ content | safe }}
+  </article>
+</main>
+
+<footer class="site-footer">
+  <p>Document ID: {{ document_id }}</p>
+</footer>
+
+</body>
+</html>
