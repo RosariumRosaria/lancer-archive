@@ -153,7 +153,6 @@
     text-decoration: none;
 
     font: inherit;
-    /* IMPORTANT: unify typography */
 
     font-weight: 800;
     letter-spacing: 0.06em;
@@ -181,4 +180,44 @@
     opacity: 0.85;
     font-size: 0.95em;
     font-style: italic;
+}
+
+.field {
+    margin: 0 0 var(--space-2);
+}
+
+.field-label {
+    display: inline-block;
+    margin-bottom: 0.35rem;
+
+    font-weight: 800;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    color: var(--tag-gray);
+}
+
+.field-input {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 0.65rem 0.75rem;
+    border: var(--rule-width) solid var(--rule);
+    background: rgba(0, 0, 0, 0.03);
+
+    color: var(--ink);
+    font: inherit;
+    letter-spacing: 0.02em;
+
+    outline: none;
+}
+
+
+
+.field-input:focus {
+    border-color: var(--alert-red);
+    background: rgba(143, 0, 1, 0.06);
+}
+
+.field-input::placeholder {
+    color: rgba(0, 0, 0, 0.45);
 }

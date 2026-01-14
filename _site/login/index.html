@@ -137,14 +137,13 @@
   <main class="page">
     <article class="prose">
       
-
 <div class="card">
-    
+  
     <div class="section-header">
       <h2>ACCESS TERMINAL</h2>
       <p class="section-subtitle">
-    Credential Entry
-    </p>
+  Credential Entry
+  </p>
     </div>
   
 
@@ -152,56 +151,80 @@
   <p>Enter your assigned access code. All access attempts are logged.</p>
   <hr>
 
-  <form id="access-form">
-    <label>
-      <strong>Codename </strong><br>
-      <input id="codename" type="text" autocomplete="off">
-    </label>
-
-    <div style="height: 0.75rem;"></div>
-
-    <label>
-      <strong>Access Code</strong><br>
-      <input id="access-code" type="password" autocomplete="off" required>
-    </label>
-
-    <div style="height: 1rem;"></div>
-
-    <div class="terminal-row">
-      <button class="btn btn-primary" type="submit">Test</button>
-      <a class="btn btn-ghost" href="/">Test</a>
+  <form id="access-form" novalidate>
+    <div class="field">
+      <label for="codename" class="field-label">Codename</label>
+      <input
+        id="codename"
+        class="field-input"
+        type="text"
+        autocomplete="one-time-code"
+        autocapitalize="characters"
+        spellcheck="false"
+      >
     </div>
 
-    <p id="access-error" class="smallprint" style="display:none;">
+    <div class="field">
+      <label for="access-code" class="field-label">Access Code</label>
+      <input
+        id="access-code"
+        class="field-input"
+        type="password"
+        autocomplete="new-password"
+        autocapitalize="off"
+        spellcheck="false"
+        required
+      >
+    </div>
+
+    <div class="terminal-row">
+      <button class="btn btn-primary" type="submit">Initiate Session</button>
+      <a class="btn btn-ghost" href="/">Return to Index</a>
+    </div>
+
+    <p id="access-error" class="smallprint system-error" style="display:none;">
       ACCESS DENIED. VERIFY CREDENTIALS.
     </p>
   </form>
-    <p class="smallprint">
-    If you do not have credentials, contact the designated administrar Oversight admin for access issuance.
+
+  <p class="smallprint">
+    If you do not have credentials, contact your Oversight administrator for access.
   </p>
 </div>
 
 <script>
-  // If already “logged in”, bounce
+  // If already logged in, bounce
   const session = window.ArchiveAuth?.getSession?.();
   if (session && (session.clearance === 0 || session.clearance)) {
     window.location.href = "/";
   }
 
-  document.getElementById("access-form").addEventListener("submit", (e) => {
+  const form = document.getElementById("access-form");
+  const codeEl = document.getElementById("access-code");
+  const codenameEl = document.getElementById("codename");
+  const errEl = document.getElementById("access-error");
+
+  function hideError() {
+    errEl.style.display = "none";
+  }
+
+  codeEl.addEventListener("input", hideError);
+  codenameEl.addEventListener("input", hideError);
+
+  form.addEventListener("submit", (e) => {
     e.preventDefault();
-    const code = document.getElementById("access-code").value.trim();
-    const codename = document.getElementById("codename").value.trim();
+
+    hideError();
+
+    const code = codeEl.value.trim();
+    const codename = codenameEl.value.trim();
 
     const record = window.ARCHIVE_ACCESS?.[code];
-    const err = document.getElementById("access-error");
-
     if (!record) {
-      err.style.display = "block";
+      errEl.style.display = "block";
       return;
     }
 
-    // Use entered codename if provided, otherwise use the configured name
     const user = codename || record.user;
 
     window.ArchiveAuth.setSession(user, record.clearance);

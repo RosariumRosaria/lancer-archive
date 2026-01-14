@@ -91,3 +91,10 @@
     padding: var(--space-2);
     margin: 0 0 var(--space-3);
 }
+
+.system-error {
+    text-align: center;
+    color: var(--alert-red);
+    letter-spacing: 0.08em;
+    font-weight: 700;
+}
