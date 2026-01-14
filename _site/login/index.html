@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>BRIEFINGS</title>
+  <title>Access Terminal</title>
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
     <a href="/">UNION STRATEGIC ARCHIVE</a>
   </h1>
   <p class="classification">
-    CLEARANCE LEVEL 1
+    CLEARANCE LEVEL UNSPECIFIED
   </p>
 </header>
 
@@ -87,7 +87,7 @@
     
       
       <li class="nav-item">
-        <a class="nav-link is-active" href="/documents/briefings/">
+        <a class="nav-link " href="/documents/briefings/">
           <span class="nav-label">Briefings</span>
         </a>
 
@@ -140,39 +140,53 @@
 
   <main class="page">
     <article class="prose">
-      <p><div class="section-header">
-<h2>Briefings</h2>
-<p class="section-subtitle">
-A Brief Overview</p>
-</p>
-    </div>
-<p>All briefings are collected here. These represent either primers on various protocols (rules), geopolitical affairs (background lore), or mission objectives/key intel.</p>
+      
+
 <div class="card">
-<p><div class="section-header">
-<h2>Memorandium</h2>
-<p class="section-subtitle">
-From Overseer Chen</p>
+
+    
+    <div class="section-header">
+      <h2>ACCESS TERMINAL</h2>
+      <p class="section-subtitle">
+    Restricted Archive Interface
+    </p>
+    </div>
+  
+
+  <h3>Authentication Required</h3>
+  <p>
+    This terminal is restricted to authorized personnel. All access attempts are logged and subject to Oversight review.
   </p>
-    </div>
-  <p>Briefings may be subject to clearance level locks, or redaction, as deeemed appropriate by Oversight Command.</p>
-</div>
-<hr>
-<div class="card">
-  <h2>Index</h2>
-  <p>A list of available briefings. Select an entry to open the full record.</p>
+
   <hr>
-  <ol>
-<p><li>
-<a href="/documents/briefings/corpos/">BRIEFING, CORPOS</a>
-</li></p>
-<p><li>
-<a href="/documents/briefings/lancers/">BRIEFING, LANCERS</a>
-</li></p>
-<p><li>
-<a href="/documents/briefings/union/">BRIEFING, UNION</a>
-</li></p>
-  </ol>
+
+  <div class="terminal-row">
+    <button class="btn btn-primary" id="login" type="button">
+      Initiate Login
+    </button>
+
+    <a class="btn btn-ghost" href="/">
+      Return to Index
+    </a>
+  </div>
+
+  <p class="smallprint">
+    If you do not have credentials, contact the designated administrar Oversight admin for temporary access issuance.
+  </p>
 </div>
+
+<script>
+  // If already authenticated, bounce to home
+  if (window.netlifyIdentity?.currentUser()) {
+    window.location.href = "/";
+  }
+
+  // Open Netlify Identity modal
+  document.getElementById("login")?.addEventListener("click", () => {
+    if (!window.netlifyIdentity) return;
+    window.netlifyIdentity.open("login");
+  });
+</script>
 
     </article>
   </main>
@@ -180,7 +194,7 @@ From Overseer Chen</p>
 
 
 <footer class="site-footer">
-  <p>Document ID: BR</p>
+  <p>Document ID: </p>
 </footer>
 
 </body>

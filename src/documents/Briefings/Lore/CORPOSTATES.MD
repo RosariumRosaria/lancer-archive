@@ -9,7 +9,7 @@ eleventyNavigation:
   key: BR-003
   title: BRIEFING, CORPOS
   parent: BR
-  order: 2
+  order: 3
 ---
 
 {% sectionHeader "IPS-Northstar" %}

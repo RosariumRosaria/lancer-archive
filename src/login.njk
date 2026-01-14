@@ -1,0 +1,47 @@
+---
+layout: layouts/base.njk
+permalink: /login/
+title: Access Terminal
+---
+
+
+<div class="card">
+
+    {% sectionHeader "ACCESS TERMINAL" %}
+    Restricted Archive Interface
+    {% endsectionHeader %}
+
+  <h3>Authentication Required</h3>
+  <p>
+    This terminal is restricted to authorized personnel. All access attempts are logged and subject to Oversight review.
+  </p>
+
+  <hr>
+
+  <div class="terminal-row">
+    <button class="btn btn-primary" id="login" type="button">
+      Initiate Login
+    </button>
+
+    <a class="btn btn-ghost" href="/">
+      Return to Index
+    </a>
+  </div>
+
+  <p class="smallprint">
+    If you do not have credentials, contact the designated administrar Oversight admin for temporary access issuance.
+  </p>
+</div>
+
+<script>
+  // If already authenticated, bounce to home
+  if (window.netlifyIdentity?.currentUser()) {
+    window.location.href = "/";
+  }
+
+  // Open Netlify Identity modal
+  document.getElementById("login")?.addEventListener("click", () => {
+    if (!window.netlifyIdentity) return;
+    window.netlifyIdentity.open("login");
+  });
+</script>

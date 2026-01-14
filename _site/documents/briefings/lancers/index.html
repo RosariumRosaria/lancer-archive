@@ -7,6 +7,17 @@
 </head>
 <body>
 
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+
+  netlifyIdentity.on("login", () => {
+    window.location.href = "/";
+  });
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.init();
+  }
+</script>
+
 <header class="site-header">
   <h1 class="site-title">
     <a href="/">UNION STRATEGIC ARCHIVE</a>
