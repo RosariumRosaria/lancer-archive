@@ -26,51 +26,55 @@
 
     function applyHeaderBadge() {
         const session = getSession();
+        const isAuthed = isAuthenticated(session);
 
         const badgeEl = document.querySelector("[data-archive-session]");
+        const authBtn = document.querySelector("[data-archive-auth-toggle]");
+
         if (badgeEl) {
-            if (!isAuthenticated(session)) {
-                badgeEl.textContent = "SESSION: NONE";
-            } else {
-                badgeEl.textContent =
-                    `SESSION: ACTIVE • CLEARANCE L${session.clearance}` +
-                    (session.user ? " • " + session.user.toUpperCase() : "");
-            }
+            badgeEl.textContent = isAuthed
+                ? `SESSION: ACTIVE • CLEARANCE L${session.clearance}${session.user ? " • " + session.user.toUpperCase() : ""
+                }`
+                : "SESSION: NONE";
         }
 
-        // Optional logout control (only shown when authenticated)
-        const logoutEl = document.querySelector("[data-archive-logout]");
-        if (logoutEl) {
-            logoutEl.style.display = isAuthenticated(session) ? "inline-flex" : "none";
+        if (authBtn) {
+            authBtn.textContent = isAuthed ? "LOG OUT" : "LOG IN";
+            authBtn.title = isAuthed
+                ? "Terminate active session"
+                : "Initiate authentication";
         }
     }
 
-    function logout({ redirectTo = "/login/" } = {}) {
-        clearSession();
-        applyHeaderBadge();
-        window.location.href = redirectTo;
+    function handleAuthToggle() {
+        const session = getSession();
+
+        if (isAuthenticated(session)) {
+            // LOG OUT
+            clearSession();
+            applyHeaderBadge();
+            window.location.href = "/login/";
+        } else {
+            // LOG IN
+            window.location.href = "/login/";
+        }
     }
 
-    // Expose helpers for login page and redirect logic
+    // Expose helpers
     window.ArchiveAuth = {
         getSession,
         setSession,
         clearSession,
-        applyHeaderBadge,
         isAuthenticated,
-        logout,
+        applyHeaderBadge,
     };
 
     document.addEventListener("DOMContentLoaded", () => {
         applyHeaderBadge();
 
-        // Bind logout click handler if a control exists
-        const logoutEl = document.querySelector("[data-archive-logout]");
-        if (logoutEl) {
-            logoutEl.addEventListener("click", (e) => {
-                e.preventDefault();
-                logout();
-            });
+        const authBtn = document.querySelector("[data-archive-auth-toggle]");
+        if (authBtn) {
+            authBtn.addEventListener("click", handleAuthToggle);
         }
     });
 })();

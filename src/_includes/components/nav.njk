@@ -2,8 +2,14 @@
   <ul class="nav-list">
     {% for item in items %}
       {% set isActive = (page.url == item.url) %}
+      {% set isParent = (not isActive) and (page.url.indexOf(item.url) == 0) %}
+
       <li class="nav-item">
-        <a class="nav-link {{ 'is-active' if isActive }}" href="{{ item.url }}">
+        <a
+          class="nav-link{% if isActive %} is-active{% elseif isParent %} is-parent{% endif %}"
+          href="{{ item.url }}"
+          {% if isActive %}aria-current="page"{% endif %}
+        >
           <span class="nav-label">{{ item.title or item.key }}</span>
         </a>
 
