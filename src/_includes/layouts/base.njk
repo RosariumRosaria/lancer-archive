@@ -16,12 +16,18 @@
   </p>
 </header>
 
+<div class="shell">
+  <aside class="sidebar">
+    {% include "components/nav.njk" %}
+  </aside>
 
-<main class="page">
-  <article class="prose">
-    {{ content | safe }}
-  </article>
-</main>
+  <main class="page">
+    <article class="prose">
+      {{ content | safe }}
+    </article>
+  </main>
+</div>
+
 
 <footer class="site-footer">
   <p>Document ID: {{ document_id }}</p>

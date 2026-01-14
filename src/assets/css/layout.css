@@ -17,12 +17,12 @@
 
 .site-header h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 2.6rem;
 }
 
 .site-header .classification {
     margin: 0.25rem 0 0;
-    font-size: 0.85rem;
+    font-size: 1rem;
 }
 
 .site-title a {
@@ -39,4 +39,85 @@
     border-top: var(--rule-width) solid var(--rule);
     padding: var(--space-2) 0;
     margin-top: var(--space-3);
+}
+
+
+.shell {
+    display: grid;
+    grid-template-columns: 18rem 1fr;
+    gap: var(--space-3);
+    align-items: start;
+}
+
+
+.sidebar {
+    position: sticky;
+    top: var(--space-3);
+    height: calc(100vh - (2 * var(--space-3)));
+    overflow: auto;
+
+    border: var(--rule-width) solid var(--rule);
+    background: rgba(0, 0, 0, 0.03);
+    padding: var(--space-2);
+}
+
+
+.nav-header {
+    border-bottom: 1px dashed var(--rule);
+    padding-bottom: var(--space-1);
+    margin-bottom: var(--space-2);
+}
+
+.nav-kicker {
+    font-size: 0.75em;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--tag-gray);
+}
+
+.nav-title {
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item>.nav-list {
+    margin-left: 1rem;
+    border-left: 1px dashed var(--rule);
+    padding-left: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+
+.nav-link {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+
+    padding: 0.35rem 0.4rem;
+    margin: 0.1rem 0;
+    color: inherit;
+    text-decoration: none;
+
+    border-left: var(--accent-width) solid transparent;
+}
+
+.nav-link::before {
+    content: "›";
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    border-left-color: var(--alert-red);
+    background: rgba(0, 0, 0, 0.06);
+    text-decoration: none;
+    color: var(--alert-red);
 }

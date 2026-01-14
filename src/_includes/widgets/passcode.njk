@@ -1,0 +1,12 @@
+<div class="passcode-widget" data-widget="passcode" data-hash="{{ hash }}">
+  <label>
+    Passcode
+    <input type="password" autocomplete="off" inputmode="text" />
+  </label>
+  <button type="button">Unlock</button>
+  <p class="status" aria-live="polite"></p>
+
+  <div class="locked" hidden>
+    {{ content | safe }}
+  </div>
+</div>
