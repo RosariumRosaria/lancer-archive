@@ -61,3 +61,5 @@ Overall, ALPHA team performance is acceptable. While minor, damage to *Alpspitze
 Continue to monitor GOI {% redact 12 %} activity for further disturbances.
 
 ---
+{% set hash = "TEST" %}
+{% include "widgets/passcode.njk" %}

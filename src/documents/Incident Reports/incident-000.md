@@ -39,8 +39,4 @@ Record deployed frames and equipment. Note losses, recoveries, damage assessment
 
 To be provided by Oversight Command.
 
-
 ---
-
-{% set hash = "REPLACE_WITH_HASH" %}
-{% include "widgets/passcode.njk" %}

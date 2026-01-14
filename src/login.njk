@@ -33,6 +33,7 @@ title: Access Terminal
         class="field-input"
         type="password"
         autocomplete="new-password"
+        autocomplete="off"
         autocapitalize="off"
         spellcheck="false"
         required
@@ -78,10 +79,18 @@ title: Access Terminal
 
     hideError();
 
-    const code = codeEl.value.trim();
-    const codename = codenameEl.value.trim();
+const code = codeEl.value
+  .normalize("NFKC")
+  .replace(/\s+/g, "")
+  .toUpperCase();
 
-    const record = window.ARCHIVE_ACCESS?.[code];
+    const codename = codenameEl.value.trim().toUpperCase();
+
+
+ const record = Object.entries(window.ARCHIVE_ACCESS || {}).find(
+  ([key]) => key.toUpperCase() === code
+)?.[1];
+
     if (!record) {
       errEl.style.display = "block";
       return;

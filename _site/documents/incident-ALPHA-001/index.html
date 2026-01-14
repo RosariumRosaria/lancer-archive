@@ -245,6 +245,80 @@ Skip Gate Down</p>
 <p>Overall, ALPHA team performance is acceptable. While minor, damage to <em>Alpspitze</em> could have been avoided; personnel are remanded to secondary training for corrective review.</p>
 <p>Continue to monitor GOI <span class="redacted">████████████</span> activity for further disturbances.</p>
 <hr>
+<div
+  class="card passcode-widget"
+  data-widget="passcode"
+  data-hash="TEST"
+>
+<p><div class="section-header">
+<h2>RESTRICTED SECTION</h2>
+<p class="section-subtitle">
+Credential Verification</p>
+  </p>
+    </div>
+  <form class="passcode-form" novalidate>
+    <div class="field">
+      <label class="field-label" for="passcode-input">
+        Passcode
+      </label>
+      <input
+        id="passcode-input"
+        class="field-input"
+        type="password"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        inputmode="text"
+        required
+      >
+    </div>
+<p><div class="terminal-row">
+<button
+        class="btn btn-primary"
+        type="submit"
+      >
+UNLOCK
+</button>
+</div></p>
+<p><p
+      class="smallprint system-error status"
+      aria-live="polite"
+      hidden
+    >
+ACCESS DENIED. INVALID PASSCODE.
+</p></p>
+<p><p class="smallprint">
+Enter authorized passcode to unlock restricted archive contents.</p>
+  </p>
+  </form>
+  <div class="locked" hidden>
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('[data-widget="passcode"]').forEach(widget => {
+      const form = widget.querySelector(".passcode-form");
+      const input = widget.querySelector(".field-input");
+      const status = widget.querySelector(".status");
+      const locked = widget.querySelector(".locked");
+      const hash = widget.dataset.hash;
+
+      if (!form) return;
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        status.hidden = true;
+
+        const value = input.value.trim();
+        if (!value) return;
+
+        // TEMP: always fail until hash logic is added
+        status.hidden = false;
+      });
+    });
+  });
+</script>
 
     </article>
   </main>
