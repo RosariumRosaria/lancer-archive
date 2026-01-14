@@ -7,24 +7,20 @@
 </head>
 <body>
 
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-
-  netlifyIdentity.on("login", () => {
-    window.location.href = "/";
-  });
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.init();
-  }
-</script>
-
 <header class="site-header">
+
+
   <h1 class="site-title">
     <a href="/">UNION STRATEGIC ARCHIVE</a>
   </h1>
+
+    <p class="classification" data-archive-session>
+  SESSION: NONE
+</p>
   <p class="classification">
-    CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
+    REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
   </p>
+
 </header>
 
 <div class="shell">
@@ -43,6 +39,10 @@
 <footer class="site-footer">
   <p>Document ID: {{ document_id }}</p>
 </footer>
+
+
+<script src="/assets/js/auth-config.js"></script>
+<script src="/assets/js/auth.js"></script>
 
 </body>
 </html>

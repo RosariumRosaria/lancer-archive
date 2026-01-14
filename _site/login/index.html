@@ -7,24 +7,20 @@
 </head>
 <body>
 
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-
-  netlifyIdentity.on("login", () => {
-    window.location.href = "/";
-  });
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.init();
-  }
-</script>
-
 <header class="site-header">
+
+
   <h1 class="site-title">
     <a href="/">UNION STRATEGIC ARCHIVE</a>
   </h1>
+
+    <p class="classification" data-archive-session>
+  SESSION: NONE
+</p>
   <p class="classification">
-    CLEARANCE LEVEL UNSPECIFIED
+    REQUIRED CLEARANCE LEVEL UNSPECIFIED
   </p>
+
 </header>
 
 <div class="shell">
@@ -143,48 +139,75 @@
       
 
 <div class="card">
-
     
     <div class="section-header">
       <h2>ACCESS TERMINAL</h2>
       <p class="section-subtitle">
-    Restricted Archive Interface
+    Credential Entry
     </p>
     </div>
   
 
   <h3>Authentication Required</h3>
-  <p>
-    This terminal is restricted to authorized personnel. All access attempts are logged and subject to Oversight review.
-  </p>
-
+  <p>Enter your assigned access code. All access attempts are logged.</p>
   <hr>
 
-  <div class="terminal-row">
-    <button class="btn btn-primary" id="login" type="button">
-      Initiate Login
-    </button>
+  <form id="access-form">
+    <label>
+      <strong>Codename </strong><br>
+      <input id="codename" type="text" autocomplete="off">
+    </label>
 
-    <a class="btn btn-ghost" href="/">
-      Return to Index
-    </a>
-  </div>
+    <div style="height: 0.75rem;"></div>
 
-  <p class="smallprint">
+    <label>
+      <strong>Access Code</strong><br>
+      <input id="access-code" type="password" autocomplete="off" required>
+    </label>
+
+    <div style="height: 1rem;"></div>
+
+    <div class="terminal-row">
+      <button class="btn btn-primary" type="submit">Initiate Session</button>
+      <a class="btn btn-ghost" href="/">Return to Index</a>
+    </div>
+
+    <p id="access-error" class="smallprint" style="display:none;">
+      ACCESS DENIED. VERIFY CREDENTIALS.
+    </p>
+  </form>
+    <p class="smallprint">
     If you do not have credentials, contact the designated administrar Oversight admin for temporary access issuance.
   </p>
 </div>
 
 <script>
-  // If already authenticated, bounce to home
-  if (window.netlifyIdentity?.currentUser()) {
+  // If already “logged in”, bounce
+  const session = window.ArchiveAuth?.getSession?.();
+  if (session && (session.clearance === 0 || session.clearance)) {
     window.location.href = "/";
   }
 
-  // Open Netlify Identity modal
-  document.getElementById("login")?.addEventListener("click", () => {
-    if (!window.netlifyIdentity) return;
-    window.netlifyIdentity.open("login");
+  document.getElementById("access-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const code = document.getElementById("access-code").value.trim();
+    const codename = document.getElementById("codename").value.trim();
+
+    const record = window.ARCHIVE_ACCESS?.[code];
+    const err = document.getElementById("access-error");
+
+    if (!record) {
+      err.style.display = "block";
+      return;
+    }
+
+    // Use entered codename if provided, otherwise use the configured name
+    const user = codename || record.user;
+
+    window.ArchiveAuth.setSession(user, record.clearance);
+    window.ArchiveAuth.applyHeaderBadge();
+
+    window.location.href = "/";
   });
 </script>
 
@@ -196,6 +219,10 @@
 <footer class="site-footer">
   <p>Document ID: </p>
 </footer>
+
+
+<script src="/assets/js/auth-config.js"></script>
+<script src="/assets/js/auth.js"></script>
 
 </body>
 </html>
