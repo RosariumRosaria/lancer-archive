@@ -211,6 +211,41 @@
     outline: none;
 }
 
+.site-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+}
+
+.classification-action {
+    cursor: pointer;
+    background: transparent;
+    border-color: var(--paper);
+    color: var(--paper);
+    padding-inline: 0.6em;
+}
+
+.classification-action:hover {
+    background: var(--paper);
+    color: var(--alert-red);
+    border-color: var(--alert-red);
+}
+
+.classification-action:focus-visible {
+    outline: 2px solid var(--alert-red);
+    outline-offset: 2px;
+}
+
+
+.header-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.header-meta [data-archive-logout] {
+    margin-left: auto;
+}
 
 
 .field-input:focus {

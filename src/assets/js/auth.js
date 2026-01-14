@@ -1,7 +1,9 @@
 (function () {
     function getSession() {
-        const clearance = Number(localStorage.getItem("archive_clearance"));
+        const clearanceRaw = localStorage.getItem("archive_clearance");
+        const clearance = clearanceRaw === null ? null : Number(clearanceRaw);
         const user = localStorage.getItem("archive_user");
+
         return {
             user: user || null,
             clearance: Number.isFinite(clearance) ? clearance : null,
@@ -18,17 +20,35 @@
         localStorage.removeItem("archive_clearance");
     }
 
+    function isAuthenticated(session = getSession()) {
+        return session.clearance !== null;
+    }
+
     function applyHeaderBadge() {
         const session = getSession();
-        const el = document.querySelector("[data-archive-session]");
-        if (!el) return;
 
-        if (!session.clearance && session.clearance !== 0) {
-            el.textContent = "SESSION: NONE";
-            return;
+        const badgeEl = document.querySelector("[data-archive-session]");
+        if (badgeEl) {
+            if (!isAuthenticated(session)) {
+                badgeEl.textContent = "SESSION: NONE";
+            } else {
+                badgeEl.textContent =
+                    `SESSION: ACTIVE • CLEARANCE L${session.clearance}` +
+                    (session.user ? " • " + session.user.toUpperCase() : "");
+            }
         }
 
-        el.textContent = `SESSION: ACTIVE • CLEARANCE L${session.clearance}${session.user ? " • " + session.user.toUpperCase() : ""}`;
+        // Optional logout control (only shown when authenticated)
+        const logoutEl = document.querySelector("[data-archive-logout]");
+        if (logoutEl) {
+            logoutEl.style.display = isAuthenticated(session) ? "inline-flex" : "none";
+        }
+    }
+
+    function logout({ redirectTo = "/login/" } = {}) {
+        clearSession();
+        applyHeaderBadge();
+        window.location.href = redirectTo;
     }
 
     // Expose helpers for login page and redirect logic
@@ -37,8 +57,20 @@
         setSession,
         clearSession,
         applyHeaderBadge,
+        isAuthenticated,
+        logout,
     };
 
-    // Apply badge on every page load
-    document.addEventListener("DOMContentLoaded", applyHeaderBadge);
+    document.addEventListener("DOMContentLoaded", () => {
+        applyHeaderBadge();
+
+        // Bind logout click handler if a control exists
+        const logoutEl = document.querySelector("[data-archive-logout]");
+        if (logoutEl) {
+            logoutEl.addEventListener("click", (e) => {
+                e.preventDefault();
+                logout();
+            });
+        }
+    });
 })();
