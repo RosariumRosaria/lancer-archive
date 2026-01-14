@@ -56,7 +56,6 @@ title: Access Terminal
 </div>
 
 <script>
-  // If already logged in, bounce
   const session = window.ArchiveAuth?.getSession?.();
   if (session && (session.clearance === 0 || session.clearance)) {
     window.location.href = "/";
@@ -76,21 +75,19 @@ title: Access Terminal
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
-
     hideError();
 
-const code = codeEl.value
-  .normalize("NFKC")
-  .replace(/\s+/g, "")
-  .toUpperCase();
+    const code = codeEl.value
+      .normalize("NFKC")
+      .replace(/\s+/g, "")
+      .toUpperCase();
 
-    const codename = codenameEl.value.trim().toUpperCase();
+    const codename = codenameEl.value
+      .normalize("NFKC")
+      .trim()
+      .toUpperCase();
 
-
- const record = Object.entries(window.ARCHIVE_ACCESS || {}).find(
-  ([key]) => key.toUpperCase() === code
-)?.[1];
-
+    const record = window.ARCHIVE_ACCESS?.[code];
     if (!record) {
       errEl.style.display = "block";
       return;
@@ -100,7 +97,6 @@ const code = codeEl.value
 
     window.ArchiveAuth.setSession(user, record.clearance);
     window.ArchiveAuth.applyHeaderBadge();
-
     window.location.href = "/";
   });
 </script>
