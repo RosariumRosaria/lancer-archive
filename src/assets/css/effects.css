@@ -5,9 +5,8 @@
 
 .horus:hover {
     background-color: black;
+    color: #fff;
     animation: distort 0.6s infinite;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 @keyframes distort {
