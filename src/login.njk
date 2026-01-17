@@ -87,11 +87,21 @@ title: Access Terminal
       .trim()
       .toUpperCase();
 
+
     const record = window.ARCHIVE_ACCESS?.[code];
+ 
     if (!record) {
       errEl.style.display = "block";
       return;
     }
+
+           const rec_user = record.user
+
+  if (rec_user !== codename) {
+        errEl.style.display = "block";
+        return;
+      }
+
 
     const user = codename || record.user;
 

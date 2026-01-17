@@ -12,8 +12,8 @@ module.exports = function (eleventyConfig) {
   `;
   });
 
-  eleventyConfig.addShortcode("redact", function (length = 12) {
-    const count = Number(length) || 12;
+  eleventyConfig.addShortcode("redact", function (word = 'testy') {
+    const count = word.length || 5;
     return `<span class="redacted">${"█".repeat(count)}</span>`;
   });
 

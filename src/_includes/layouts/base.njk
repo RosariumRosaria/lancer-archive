@@ -51,9 +51,15 @@
   <p>Document ID: {{ document_id }}</p>
 </footer>
 
+<body
+  data-required-clearance="{{ clearance_required | default(0) }}"
+  data-redacted-url="{{ redacted_url | default('') }}"
+  data-full-url="{{ full_url | default('') }}"
+>
 
 <script src="/assets/js/auth-config.js"></script>
 <script src="/assets/js/auth.js"></script>
+<script src="/assets/js/gate.js"></script>
 
 </body>
 </html>
