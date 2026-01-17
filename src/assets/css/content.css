@@ -98,3 +98,43 @@
     letter-spacing: 0.08em;
     font-weight: 700;
 }
+
+.redact {
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 1;
+}
+
+.redact {
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 1;
+}
+
+.redact-mask {
+    background: #000;
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+    display: inline-block;
+    line-height: 1;
+}
+
+.redact-text {
+    display: none;
+    line-height: 1;
+}
+
+.redact-mask,
+.redact-text {
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0;
+}
+
+
+.redact.is-cleared .redact-mask {
+    display: none;
+}
+
+.redact.is-cleared .redact-text {
+    display: inline;
+}

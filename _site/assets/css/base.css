@@ -16,6 +16,24 @@
     --font-body: 'Lancer-Icons-v1.3.ttf', sans-serif;
 }
 
+
+body[data-theme="default"] {
+    --paper: #f4f4f2;
+    --ink: #1a1a1a;
+    --rule: #000;
+    --alert-red: #8f0001;
+    --tag-gray: #636363;
+}
+
+body[data-theme="horus"] {
+    --paper: #0b0d10;
+    --ink: #e6e6e6;
+    --rule: #2a2f36;
+    --alert-red: #ff2bd6;
+    --tag-gray: #8aa0b5;
+}
+
+
 body {
     margin: 0;
     padding: var(--space-3);

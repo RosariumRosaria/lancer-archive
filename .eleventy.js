@@ -12,17 +12,18 @@ module.exports = function (eleventyConfig) {
   `;
   });
 
-  eleventyConfig.addShortcode("redact", function (word = 'testy') {
-    const count = word.length || 5;
-    return `<span class="redacted">${"█".repeat(count)}</span>`;
-  });
+  eleventyConfig.addShortcode("redact", function (text = "", required_clearance = 1) {
+    const needed = Number(required_clearance);
+    const count = text.length || 5;
+    const encoded = Buffer.from(String(text), "utf8").toString("base64");
 
+    return `<span class="redact" data-redact data-required-clearance="${needed}" data-redact-text="${encoded}"><span class="redact-mask" aria-hidden="true">${"█".repeat(count)}</span><span class="redact-text" aria-hidden="true"></span></span>`;
+  });
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addCollection("documents", function (collectionApi) {
     return collectionApi.getAll().filter((item) => {
-      // Adjust "documents" to your folder name
       return item.filePathStem && item.filePathStem.startsWith("/documents/");
     });
   });

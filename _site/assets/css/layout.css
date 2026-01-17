@@ -3,6 +3,11 @@
     margin-inline: auto;
 }
 
+body.gate-pending .shell,
+body.gate-pending .site-footer {
+    visibility: hidden;
+}
+
 .site-header {
     background: var(--alert-red);
     color: #fff;

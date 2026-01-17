@@ -4,8 +4,6 @@ title: INCIDENT REPORT ALPHA 001
 document_id: IRA-001
 clearance_required: 2
 permalink: /documents/incidents/ira-001/
-redacted_url: /documents/incidents/ira-001/
-full_url: /documents/incidents/ira-001/full/
 tags: ["incident-report"]
 eleventyNavigation:
   key: IRA-001
@@ -25,7 +23,7 @@ Following disruption to Skip Gate *Alpspitze* (lesser-class blink gate), ALPHA t
 
 ALPHA team deployed via unmanned dropship to the structure’s surface and initiated uplink from the primary black-box telemetry store.
 
-Telemetry indicates interference consistent with GOI {% redact 'horizon' %}. Hostile frames were engaged and neutralized during the operation, resulting in minor secondary damage to *Alpspitze*.
+Telemetry indicates interference consistent with GOI {% redact 'Horizon', 2%}. Hostile frames were engaged and neutralized during the operation, resulting in minor secondary damage to *Alpspitze*.
 
 ### Outcome
 
@@ -54,13 +52,13 @@ Skip Gate access restored. Sustained damage limits jump-window tolerance. Repair
 
 - **CALLSIGN:** BULLWARK-2  
   **TYPE:** IPS-N DRAKE  
-  **STATUS:** {% redact 'Recovered from Snapshot'%}
+  **STATUS:** {% redact 'Recovered from Snapshot', 3%}
 
 ### Assessment
 
 Overall, ALPHA team performance is acceptable. While minor, damage to *Alpspitze* could have been avoided; personnel are remanded to secondary training for corrective review.
 
-Continue to monitor GOI {% redact 'horizon' %} activity for further disturbances.
+Continue to monitor GOI {% redact 'Horizon', 2 %} activity for further disturbances.
 
 ---
 {% set hash = "TEST" %}
