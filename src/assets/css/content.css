@@ -61,7 +61,7 @@
     border: var(--rule-width) solid var(--paper);
 }
 
-.prose a {
+.prose a:not(.btn) {
     color: inherit;
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -69,18 +69,18 @@
     text-decoration-color: rgba(0, 0, 0, 0.55);
 }
 
-.prose a:hover {
+.prose a:not(.btn):hover {
     text-decoration-color: var(--alert-red) !important;
     color: var(--alert-red);
 }
 
 
-.prose a:visited {
+.prose a:not(.btn):visited {
     text-decoration-color: rgba(0, 0, 0, 0.35);
     opacity: 0.92;
 }
 
-.prose a:focus-visible {
+.prose a:not(.btn):focus-visible {
     outline: 2px solid var(--alert-red);
     outline-offset: 2px;
 }
