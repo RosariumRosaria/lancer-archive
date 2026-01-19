@@ -46,21 +46,18 @@
         }
     }
 
+
     function handleAuthToggle() {
         const session = getSession();
 
         if (isAuthenticated(session)) {
-            // LOG OUT
             clearSession();
             applyHeaderBadge();
             window.location.href = "/login/";
         } else {
-            // LOG IN
             window.location.href = "/login/";
         }
     }
-
-    // Expose helpers
     window.ArchiveAuth = {
         getSession,
         setSession,
