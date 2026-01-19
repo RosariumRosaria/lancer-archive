@@ -1,9 +1,14 @@
 ---
 layout: layouts/base.njk
-title: BRIEFING, RESOURCES
+title: RESOURCES
 document_id: BR-R
 clearance_required: 0
 permalink: /documents/briefings/RESOURCES/
+eleventyNavigation:
+  key: BR-Resources
+  title: RESOURCES
+  parent: BR
+  order: 2
 ---
 
 {% sectionHeader "Useful Links" %}
