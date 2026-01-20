@@ -1,13 +1,13 @@
 ---
 layout: layouts/base.njk
-title: BRIEFING, CORPOS
+title: Corpos
 document_id: BR-003
 clearance_required: 0
 permalink: /documents/briefings/corpos/
 tags: ["briefing"]
 eleventyNavigation:
   key: BR-003
-  title: BRIEFING, CORPOS
+  title: Corpos
   parent: BR
   order: 3
 ---
