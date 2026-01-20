@@ -4,11 +4,11 @@ title: Lancers
 document_id: BR-002
 clearance_required: 0
 permalink: /documents/briefings/lancers/
-tags: ["briefing"]
+tags: ["internal-doc"]
 eleventyNavigation:
-  key: BR-002
+  key: ID-LANCERS
   title: Lancers
-  parent: BR
+  parent: ID
   order: 2
 ---
 

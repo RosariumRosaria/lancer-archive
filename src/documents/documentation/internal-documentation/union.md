@@ -1,14 +1,14 @@
 ---
 layout: layouts/base.njk
-title: BRIEFING, UNION
-document_id: BR-001
+title: Union
+document_id: ID-UNION
 clearance_required: 0
 permalink: /documents/briefings/union/
-tags: ["briefing"]
+tags: ["internal-doc"]
 eleventyNavigation:
-  key: BR-001
-  title: BRIEFING, UNION
-  parent: BR
+  key: ID-UNION
+  title: Union
+  parent: ID
   order: 2
 ---
 

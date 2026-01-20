@@ -34,8 +34,7 @@
     margin-top: 0;
     margin-bottom: 0;
 
-    font-weight: 600;
-    letter-spacing: 0.04em;
+    --fw-semibold: 600;
     text-transform: uppercase;
     color: var(--tag-gray);
 
@@ -53,8 +52,7 @@
 }
 
 .classification {
-    font-weight: 700;
-    letter-spacing: 0.06em;
+    font-weight: var(--fw-bold);
     text-transform: uppercase;
     display: inline-block;
     padding: 0.15em 0.5em;
@@ -95,12 +93,11 @@
 .data-table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.95rem;
+    font-size: var(--fs-sm);
 }
 
 .data-table__title {
-    font-weight: 800;
-    letter-spacing: 0.08em;
+    font-weight: var(--fw-title);
     text-transform: uppercase;
     margin: 0 0 var(--space-1);
     color: var(--alert-red);
@@ -119,8 +116,7 @@
     text-align: left;
     width: 40%;
     text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: 0.8rem;
+    font-size: var(--fs-xs);
     color: var(--tag-gray);
 }
 
@@ -132,15 +128,55 @@
 .data-table--compact th,
 .data-table--compact td {
     padding: 0.2rem 0.3rem;
-    font-size: 0.9rem;
+    font-size: var(--fs-sm);
+}
+
+.timeline {
+    list-style: none;
+    margin: var(--space-2) 0 var(--space-3);
+    padding: 0;
+    border-left: var(--rule-width) solid var(--rule);
+}
+
+.timeline li {
+    position: relative;
+    padding: 0 0 var(--space-2) var(--space-2);
+}
+
+.timeline li::before {
+    content: "";
+    position: absolute;
+    left: calc(-1 * var(--rule-width) / 2);
+    top: 0.35rem;
+
+    width: 0.65rem;
+    height: 0.65rem;
+
+    border: var(--rule-width) solid var(--alert-red);
+    background: var(--paper);
+    border-radius: 50%;
+
+    transform: translateX(-50%);
+}
+
+
+.timeline__date {
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    color: var(--alert-red);
+}
+
+.timeline__date::after {
+    content: ":";
+    margin-right: 0.5rem;
+    color: var(--ink);
 }
 
 
 .system-error {
     text-align: center;
     color: var(--alert-red);
-    letter-spacing: 0.08em;
-    font-weight: 700;
+    font-weight: var(--fw-bold);
 }
 
 .redact {

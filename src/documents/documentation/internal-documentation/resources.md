@@ -3,11 +3,12 @@ layout: layouts/base.njk
 title: Resources
 document_id: BR-R
 clearance_required: 0
+tags: ["internal-doc"]
 permalink: /documents/briefings/RESOURCES/
 eleventyNavigation:
-  key: BR-Resources
+  key: ID-Resources
   title: Resources
-  parent: BR
+  parent: ID
   order: 2
 ---
 

@@ -1,24 +1,27 @@
 ---
 layout: layouts/base.njk
-title: VISIT REIHENSTADT
-document_id: ED-001
+title: Visit Reihenstadt
+document_id: ED-REIHENSTADT
 clearance_required: 0
-permalink: /documents/external-docs/REIHENSTADT/
+permalink: /documents/external-docs/reihenstadt/
 tags: ["external-doc"]
 eleventyNavigation:
-  key: ED-001
-  title: VISIT REIHENSTADT
+  key: ED-REIHENSTADT
+  title: Visit Reihenstadt
   parent: ED
   order: 3
 ---
 
-{% sectionHeader "VISIT REIHENSTADT" %}
+{% sectionHeader "Visit Reihenstadt" %}
 See the world where the sun stands still!
 {% endsectionHeader %}
 
 ### Our Story
 
-The early colonies faced periods of unrest, division, and hardship, exacerbated by the absence of a traditional day-night cycle. In response, the people of Reihenstadt developed a unique culture and way of life. Just in time, too. Our skip gate, <em>Altspitze</em>, soon went on the <em>Altfritze</em>, suffering a prolonged and unexpected systems failure.
+Founded in 4390u during one of the waves of SecComm expansion, Reihenstadt has a long and storied history. Even for the hardy descendants of the Old Danube settlers, life on Reihenstadt required significant adjustment.
+
+The early colonies faced periods of unrest, division, and hardship, exacerbated by the absence of a traditional day-night cycle. In response, the people of Reihenstadt developed a unique culture and way of life. Just in time, too. Our skip gate, <em>
+Alpspitze</em>, soon went on the <em>Alpfritze</em>, suffering a prolonged and unexpected systems failure.
 
 After several centuries of isolation, the gate was successfully repaired, allowing Reihenstadt to rejoin the wider Union.
 

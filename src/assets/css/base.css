@@ -14,6 +14,19 @@
     --accent-width: 6px;
     --indent: var(--space-2);
     --font-body: 'Lancer-Icons-v1.3.ttf', sans-serif;
+
+    --fs-base: 18px;
+    --fs-md: 1rem;
+    --fs-sm: 0.95rem;
+    --fs-xs: 0.8rem;
+    --fs-xl: 2.6rem;
+
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-title: 800;
 }
 
 
@@ -41,6 +54,6 @@ body {
     color: var(--ink);
     font-family: var(--font-body);
     line-height: 1.6;
-    font-size: 18px;
+    font-size: var(--fs-base);
 
 }
