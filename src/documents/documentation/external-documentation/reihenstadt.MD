@@ -18,13 +18,11 @@ See the world where the sun stands still!
 
 ### Our Story
 
-Founded in 4490 during one of the final waves of SecComm expansion, Reihenstadt has a long and storied history. Even for the hardy descendants of the Old Danube settlers, life on Reihenstadt required significant adjustment.
-
-The early colonies faced periods of unrest, division, and hardship, exacerbated by the absence of a traditional day night cycle. In response, the people of Reihenstadt developed a unique culture and way of life. Just in time, too. Our skip gate, <em>Altspitze</em>, soon went on the <em>Altfritze</em>, suffering a prolonged and unexpected systems failure.
+The early colonies faced periods of unrest, division, and hardship, exacerbated by the absence of a traditional day-night cycle. In response, the people of Reihenstadt developed a unique culture and way of life. Just in time, too. Our skip gate, <em>Altspitze</em>, soon went on the <em>Altfritze</em>, suffering a prolonged and unexpected systems failure.
 
 After several centuries of isolation, the gate was successfully repaired, allowing Reihenstadt to rejoin the wider Union.
 
-Now, we stand ready with open arms to welcome you whether you arrive for commerce, pleasure, or to begin a new life.
+Now, we stand ready with open arms to welcome you, whether you arrive for commerce, pleasure, or to begin a new life.
 
 <div class="card">
   {% sectionHeader "New in Town?" %}
@@ -67,7 +65,7 @@ The orbital elevator makes travel between station and surface effortless, allowi
 - **Can I keep my Kalenderkarte as a souvenir?**  
   We understand that many guests wish to take a piece of Reihenstadt with them when they depart. Replica Kalenderkarten are available at all authorized gift shops.
 - **Is the Night Side safe?**  
-  While rumors abound about our dusky half, life on the frontier can be more than safe it can be pleasant. By remaining within approved areas, visitors often find the Night Side calming, cozy, and even meditative.
+  While rumors abound about our dusky half, life on the frontier can be more than safe; it can be pleasant. By remaining within approved areas, visitors often find the Night Side calming, cozy, and even meditative.
 - **Can I visit Heimkrone?**  
   While the upper levels of Heimkrone are restricted, much of the lower station is open to guests and offers excellent views of the planet below.
 - **I loved my trip and want to stay!**  

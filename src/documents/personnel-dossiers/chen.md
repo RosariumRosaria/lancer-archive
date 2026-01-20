@@ -50,7 +50,7 @@ Raised in the shadow of her father, a former Interim Administrator of Reihenstad
 
 After completing her doctorate in Applied Paracausal Studies, Chen formally severed familial and civilian affiliations and transferred into OVERSIGHT service. Records indicate the transition was voluntary and expedited.
 
-Chen has served continuously as an Overseer since shortly after Reihenstadt’s reintegration with Union authority. Her early assignments within the organization focused on {% redact "anomalous material decommissioning", 2 %}, as part of post-isolation remediation efforts on the Night Side.
+Chen has served continuously as an Overseer since shortly after Reihenstadt’s reintegration with Union authority. Her early assignments within the organization focused on {% redact "anomalous material decommissioning", 3 %}, as part of post-isolation remediation efforts on the Night Side.
 
 ---
 
@@ -68,7 +68,7 @@ Chen has served continuously as an Overseer since shortly after Reihenstadt’s 
 - Displays limited interest in local political reconciliation efforts.  
 - Personal history prior to OVERSIGHT service is considered non-operational.  
 - Subject cleared for continued exposure to {% redact "metavault MUNDLIFARI", 3 %} under monitored conditions.  
-- Granted transfer to new Kalenderkarte group following formal request.
+- Subject was granted transfer to a new Kalenderkarte group following formal request.
 
 <div class="card">
   <div class="data-table__title">Portrait</div>
