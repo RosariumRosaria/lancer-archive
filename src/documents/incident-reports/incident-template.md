@@ -8,7 +8,7 @@ tags: ["incident-report"]
 eleventyNavigation:
   key: IR-000
   parent: IR
-  order: 2
+  order: 0
 ---
 
 {% sectionHeader "INCIDENT REPORT 000" %}

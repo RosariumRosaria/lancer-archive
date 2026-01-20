@@ -30,7 +30,10 @@ body.gate-pending .site-footer {
 
 .site-header {
     background: var(--alert-red);
-    color: #fff;
+    color: var(--paper);
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
 
     padding-block: var(--space-1);
     padding-inline: var(--space-3);
@@ -38,6 +41,21 @@ body.gate-pending .site-footer {
     margin-inline: calc(-1 * var(--space-3));
     margin-top: calc(-1 * var(--space-3));
     margin-bottom: var(--space-3);
+}
+
+.site-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    width: 6rem;
+    margin-right: var(--space-1);
+}
+
+.site-logo img {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .site-header h1 {
@@ -231,10 +249,11 @@ body.gate-pending .site-footer {
     outline: none;
 }
 
-.site-header {
+.site-header-content {
     display: flex;
     flex-direction: column;
-    gap: var(--space-1);
+    gap: 0.35rem;
+    min-width: 0;
 }
 
 .classification-action {

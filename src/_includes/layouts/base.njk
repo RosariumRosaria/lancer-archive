@@ -4,14 +4,23 @@
   <meta charset="utf-8">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="icon" href="/assets/images/oversightlogofav.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/images/oversightlogofav.svg" sizes="32x32">
 </head>
-<body>
-<body data-theme="{{ theme | default('default') }}">
+<body
+  class="gate-pending{% if layout_columns == 2 %} columns-2{% endif %}"
+  data-theme="{{ theme | default('default') }}"
+  data-required-clearance="{{ clearance_required | default(0) }}"
+>
 
 <header class="site-header">
-  <h1 class="site-title">
-    <a href="/">UNION STRATEGIC ARCHIVE</a>
-  </h1>
+  <a class="site-logo" href="/" aria-label="Union Strategic Archive">
+    <img src="/assets/images/oversightlogoheader.svg" alt="" />
+  </a>
+  <div class="site-header-content">
+    <h1 class="site-title">
+      <a href="/">UNION STRATEGIC ARCHIVE</a>
+    </h1>
 
   <div class="header-meta">
     <p class="classification" data-archive-session>
@@ -30,9 +39,7 @@
 </button>
 
   </div>
-</header>
-
-
+  </div>
 </header>
 
 <div class="shell">
@@ -51,11 +58,6 @@
 <footer class="site-footer">
   <p>Document ID: {{ document_id }}</p>
 </footer>
-
-<body
-  class="gate-pending{% if layout_columns == 2 %} columns-2{% endif %}"
-  data-required-clearance="{{ clearance_required | default(0) }}"
->
 
 <script src="/assets/js/auth-config.js"></script>
 <script src="/assets/js/auth.js"></script>

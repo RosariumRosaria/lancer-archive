@@ -8,7 +8,7 @@ tags: ["personnel-dossier"]
 eleventyNavigation:
   key: PD-000
   parent: PD
-  order: 2
+  order: 0
 ---
 
 {% sectionHeader "PERSON OF INTEREST" %}
