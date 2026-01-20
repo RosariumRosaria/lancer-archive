@@ -13,24 +13,24 @@
      id="defs1" />
   <path
      id="path6"
-     style="fill:#8f0001;fill-opacity:0;stroke:#f4f4f2;stroke-width:9.85777;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     style="fill:#1a1a1a;fill-opacity:0;stroke:#1a1a1a;stroke-width:9.85777;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
      d="M 103.77205,51.694546 A 100.86337,66.192094 0 0 0 5.2290213,103.77231 100.86337,66.192094 0 0 0 103.77205,155.85006 100.86337,66.192094 0 0 0 202.31559,103.77334 100.86337,66.192094 0 0 0 103.77205,51.694546 Z" />
   <ellipse
-     style="fill:#f4f4f2;fill-opacity:1;stroke:#f4f4f2;stroke-width:2.24586;stroke-dasharray:none;stroke-opacity:0"
+     style="fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-width:2.24586;stroke-dasharray:none;stroke-opacity:0"
      id="circle4"
      cx="103.77231"
      cy="103.77231"
      rx="25.165304"
      ry="25.043022" />
   <ellipse
-     style="fill:#f4f4f2;fill-opacity:0;stroke:#f4f4f2;stroke-width:9.85777;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     style="fill:#f4f4f2;fill-opacity:0;stroke:#1a1a1a;stroke-width:9.85777;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
      id="path8"
      cx="103.77231"
      cy="103.77231"
      rx="47.501598"
      ry="51.236469" />
   <rect
-     style="fill:#8f0001;fill-opacity:0;stroke:#f4f4f2;stroke-width:9.85777;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+     style="fill:#8f0001;fill-opacity:0;stroke:#1a1a1a;stroke-width:9.85777;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
      id="rect9"
      width="2.5277963"
      height="102.93651"

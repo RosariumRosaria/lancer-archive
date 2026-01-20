@@ -14,9 +14,15 @@
 >
 
 <header class="site-header">
-  <a class="site-logo" href="/" aria-label="Union Strategic Archive">
-    <img src="/assets/images/oversightlogoheader.svg" alt="" />
-  </a>
+  <button class="site-logo" type="button" data-theme-toggle aria-label="Toggle dark mode">
+    <img
+      src="/assets/images/oversightlogoheader.svg"
+      alt=""
+      data-theme-logo
+      data-logo-light="/assets/images/oversightlogoheader.svg"
+      data-logo-dark="/assets/images/oversightlogoheaderdark.svg"
+    />
+  </button>
   <div class="site-header-content">
     <h1 class="site-title">
       <a href="/">UNION STRATEGIC ARCHIVE</a>
@@ -61,6 +67,7 @@
 
 <script src="/assets/js/auth-config.js"></script>
 <script src="/assets/js/auth.js"></script>
+<script src="/assets/js/theme.js"></script>
 <script src="/assets/js/redact.js"></script>
 <script src="/assets/js/gate.js"></script>
 

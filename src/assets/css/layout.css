@@ -50,6 +50,10 @@ body.gate-pending .site-footer {
     height: 6rem;
     width: 6rem;
     margin-right: var(--space-1);
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
 }
 
 .site-logo img {
@@ -63,9 +67,14 @@ body.gate-pending .site-footer {
     font-size: var(--fs-xl);
 }
 
+
+
 .site-header .classification {
     margin: 0.25rem 0 0;
     font-size: var(--fs-md);
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
 }
 
 .site-title a {
@@ -100,7 +109,7 @@ body.gate-pending .site-footer {
     overflow: auto;
 
     border: var(--rule-width) solid var(--rule);
-    background: rgba(0, 0, 0, 0.03);
+    background: var(--panel-fill);
     padding: var(--space-2);
 }
 
@@ -254,6 +263,7 @@ body.gate-pending .site-footer {
     flex-direction: column;
     gap: 0.35rem;
     min-width: 0;
+    flex: 1;
 }
 
 .classification-action {
@@ -261,7 +271,9 @@ body.gate-pending .site-footer {
     background: transparent;
     border-color: var(--paper);
     color: var(--paper);
-    padding-inline: 0.6em;
+    padding: 0.15em 0.5em;
+
+    font-weight: var(--fw-title);
 }
 
 .classification-action:hover {
