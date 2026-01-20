@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Corpos
 document_id: ID-CORPOS
 clearance_required: 0
-permalink: /documents/briefings/corpos/
+permalink: /documents/internal/corpos/
 tags: ["internal-doc"]
 eleventyNavigation:
   key: ID-CORPOS

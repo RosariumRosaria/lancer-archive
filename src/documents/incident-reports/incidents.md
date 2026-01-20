@@ -1,12 +1,13 @@
 ---
 layout: layouts/base.njk
-title: INCIDENT REPORTS
+title: Incident Reports
 document_id: IR
 clearance_required: 1
-permalink: /documents/incidents/
+tags: ["hub"]
+permalink: /documents/incident-reports/
 eleventyNavigation:
   key: IR
-  title: Incidents
+  title: Incident Reports
   parent: IN
   order: 1
 ---
@@ -18,7 +19,7 @@ A Brief Overview
 All operational incidents are catalogued here following debrief and review. Reports are subject to redaction and revision as additional information becomes available.
 
 <div class="card">
-  {% sectionHeader "Reminder" %} 
+  {% sectionHeader "Reminder" %}
   From Overseer Chen
   {% endsectionHeader %}
   <p>All field teams must designate an operative for ARR writeup, please send completed reports to my departments for processing and redaction.</p>
@@ -39,7 +40,7 @@ Incident reports are to be submitted following completion of field operations or
 
 4. **Personnel**  
    List all operatives involved. Include injuries, fatalities, extractions.
-   
+
 5. **Assets**  
    Record all deployed frames and equipment. Note losses, recoveries, damage assessments, and current operational status.
 
@@ -47,7 +48,6 @@ Incident reports are to be submitted following completion of field operations or
    Reserved for Oversight Command. Field personnel should not include recommendations or conclusions in this section unless explicitly directed.
 
 ---
-
 
 <div class="card">
   <h2>Index</h2>
@@ -62,4 +62,3 @@ Incident reports are to be submitted following completion of field operations or
     {% endfor %}
   </ol>
 </div>
-

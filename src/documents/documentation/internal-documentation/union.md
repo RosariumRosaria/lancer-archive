@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Union
 document_id: ID-UNION
 clearance_required: 0
-permalink: /documents/briefings/union/
+permalink: /documents/internal/union/
 tags: ["internal-doc"]
 eleventyNavigation:
   key: ID-UNION

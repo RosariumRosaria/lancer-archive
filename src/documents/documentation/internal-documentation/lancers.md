@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Lancers
 document_id: BR-002
 clearance_required: 0
-permalink: /documents/briefings/lancers/
+permalink: /documents/internal/lancers/
 tags: ["internal-doc"]
 eleventyNavigation:
   key: ID-LANCERS

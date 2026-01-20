@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Timeline
 document_id: ID-TIMELINE
 clearance_required: 0
-permalink: /documents/briefings/Timeline/
+permalink: /documents/internal/Timeline/
 tags: ["internal-doc"]
 eleventyNavigation:
   key: ID-TIMELINE

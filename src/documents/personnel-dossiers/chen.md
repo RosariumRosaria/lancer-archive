@@ -26,8 +26,6 @@ Her responsibilities include operational planning, field guidance for deployed a
 
 She currently serves as the primary liaison between OVERSIGHT and incoming LANCER assets.
 
----
-
 <div class="card">
   <div class="data-table__title">Biometric Info</div>
   <table class="data-table">
@@ -42,8 +40,6 @@ She currently serves as the primary liaison between OVERSIGHT and incoming LANCE
   </table>
 </div>
 
----
-
 ### Background
 
 Raised in the shadow of her father, a former Interim Administrator of Reihenstadt, Chen demonstrated early ambition and academic focus.
@@ -52,15 +48,11 @@ After completing her doctorate in Applied Paracausal Studies, Chen formally seve
 
 Chen has served continuously as an Overseer since shortly after Reihenstadt’s reintegration with Union authority. Her early assignments within the organization focused on {% redact "anomalous material decommissioning", 3 %}, as part of post-isolation remediation efforts on the Night Side.
 
----
-
 ### Status
 
 - Active.  
 - Currently stationed on Reihenstadt.  
 - Assigned as liaison to newly transferred LANCER team.
-
----
 
 ### Notes
 
@@ -74,3 +66,5 @@ Chen has served continuously as an Overseer since shortly after Reihenstadt’s 
   <div class="data-table__title">Portrait</div>
   <img class="media-slot" src="/assets/images/chen.jpg" alt="Portrait of Allison Chen">
 </div>
+
+---

@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Visit Reihenstadt
 document_id: ED-REIHENSTADT
 clearance_required: 0
-permalink: /documents/external-docs/reihenstadt/
+permalink: /documents/external/reihenstadt/
 tags: ["external-doc"]
 eleventyNavigation:
   key: ED-REIHENSTADT

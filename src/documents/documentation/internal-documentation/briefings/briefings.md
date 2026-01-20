@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: Briefings
 document_id: BR
 clearance_required: 1
+tags: ["hub"]
 permalink: /documents/briefings/
 eleventyNavigation:
   key: BR

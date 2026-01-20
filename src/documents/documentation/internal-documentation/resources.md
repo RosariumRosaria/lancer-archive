@@ -4,7 +4,7 @@ title: Resources
 document_id: BR-R
 clearance_required: 0
 tags: ["internal-doc"]
-permalink: /documents/briefings/RESOURCES/
+permalink: /documents/internal/RESOURCES/
 eleventyNavigation:
   key: ID-Resources
   title: Resources

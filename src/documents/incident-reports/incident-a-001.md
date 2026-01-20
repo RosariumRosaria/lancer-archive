@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: INCIDENT REPORT ALPHA 001
+title: Incident Report Alpha 001
 document_id: IRA-001
 clearance_required: 2
 permalink: /documents/incidents/ira-001/

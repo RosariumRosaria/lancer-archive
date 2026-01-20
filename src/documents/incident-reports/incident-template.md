@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: INCIDENT REPORT 000
+title: Incident Report 000
 document_id: IR-000
 clearance_required: 0
 permalink: /documents/incident-000/

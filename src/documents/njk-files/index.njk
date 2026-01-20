@@ -8,14 +8,54 @@ eleventyNavigation:
   order: 1
 ---
 
-<h2>All Documents</h2>
-<ul>
-  {% for doc in collections.documents | sort(attribute="url") %}
-    <li>
-      <a href="{{ doc.url }}">{{ doc.data.title or doc.url }}</a>
-      {% if doc.data.clearance_required %}
-        (Clearance: {{ doc.data.clearance_required }})
+{% sectionHeader "UNION ARCHIVE" %}
+A secure information repository.
+{% endsectionHeader %}
+<br>
+<p>
+Welcome to OVERSIGHT's Archive. This repository contains records on local affairs, primers on galactic history, mission briefings, and cultural material.
+</p>
+
+<p>
+For convenience, a selection of recommended articles has been provided for onboarding, along with primary archive hubs for further exploration.
+</p>
+
+<p>
+Be advised: some documents are restricted by clearance level and may contain redacted information.
+</p>
+
+<div class="card card--spaced">
+  {% sectionHeader "Recommended Reading" %}
+  A subset of information for priming on the wider lore and local history.
+  {% endsectionHeader %}
+  <ul>
+    <li><a href="/documents/internal/union/">UNION</a></li>
+    <li><a href="/documents/internal/lancers/">LANCER</a></li>
+    <li><a href="/documents/internal/corpos/">CORPOS</a></li>
+    <li><a href="/documents/internal/timeline/">TIMELINE</a></li>
+    <li><a href="/documents/external/reihenstadt/">REIHENSTADT</a></li>
+  </ul>
+</div>
+
+<div class="card">
+  {% sectionHeader "Archive Hubs" %}
+  Primary indices for each collection.
+  {% endsectionHeader %}
+  <ul>
+    {% set hubDocs = [] %}
+    {% for doc in collections.documents | sort(attribute="url") %}
+      {% if doc.data.tags and "hub" in doc.data.tags %}
+        {% set hubDocs = hubDocs.concat([doc]) %}
+        <li>
+          <a href="{{ doc.url }}">{{ doc.data.title or doc.url }}</a>
+          {% if doc.data.clearance_required %}
+            (Clearance: {{ doc.data.clearance_required }})
+          {% endif %}
+        </li>
       {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+    {% if hubDocs.length == 0 %}
+      <li><em>No hubs are currently listed.</em></li>
+    {% endif %}
+  </ul>
+</div>
