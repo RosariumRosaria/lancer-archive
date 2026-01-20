@@ -18,7 +18,7 @@ A Brief Overview
 
 A repository for documentation produced within the organization.
 
-These materials include procedural primers (protocols), geopolitical briefs (background), and other documents of operational relevance.
+These materials include procedural primers (game rules), geopolitical briefs (background information), and other documents of relevance.
 
 ---
 

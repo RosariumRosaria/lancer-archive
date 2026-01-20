@@ -16,11 +16,11 @@ eleventyNavigation:
 A Brief Overview
 {% endsectionHeader %}
 
-This section contains official briefings prepared for operational awareness.
+This section contains official briefings prepared for specific operations.
 
-Briefings serve as primers on key objectives, strategic conditions, and mission-relevant intelligence.
+Briefings serve as primers on key objectives, strategic conditions, and relevant intelligence.
 
-Information presented here is considered authoritative at the time of issue.
+Information presented here is considered authoritative at the time of issue, though may later be determined to be false.
 
 ---
 

@@ -27,7 +27,7 @@ Telemetry indicates interference consistent with GOI {% redact 'Horizon', 2%}. H
 
 ### Outcome
 
-Skip Gate access restored. Sustained damage limits jump-window tolerance. Repairs are ongoing.
+Skip Gate access restored. Sustained damage limits jump-window tolerance to narrow time frames. Repairs are ongoing.
 
 ### Personnel
 

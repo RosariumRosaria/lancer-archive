@@ -28,7 +28,7 @@ Information contained within may be incorrect, biased, incomplete, or deliberate
   {% sectionHeader "Memorandum" %}
   From Overseer Chen
   {% endsectionHeader %}
-  <p>For the love of Cradle: if one more of you posts personal information here, I’m violating all three pillars.</p>
+  <p>For the love of Cradle: if one more of you hosts your personal files here, I’m violating all three pillars.</p>
 </div>
 
 <div class="card">
