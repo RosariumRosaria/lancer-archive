@@ -12,6 +12,28 @@ eleventyNavigation:
   order: 3
 ---
 
+{% sectionHeader "The Big Three" %}
+Plus One
+{% endsectionHeader %}
+
+{% sectionHeader "The Big Three" %}
+Plus One
+{% endsectionHeader %}
+
+### Overview
+
+While Union encompasses countless corporations and polities, few exert influence comparable to those detailed in this article.
+
+These entities are notable not only for their dominance in industrial, commercial, and medical technologies, but for their status as states unto themselves.
+
+**Harrison Armory** governs numerous worlds outright, its imperial ambitions frequently placing it at odds with established powers such as the Karrakin Trade Baronies.
+
+**Smith-Shimano Corpro** administers its vaunted Constellar worlds, where genetic lineages are cultivated to commerical whims.
+
+**IPS-Northstar**, while holding comparatively less territorial control, maintains extensive holdings in stations and gate infrastructure, supported by a fleet unmatched in scale.
+
+For better or worse, Union is compelled to coexist with—and contend against these powers.
+
 {% sectionHeader "IPS-Northstar" %}
 Your friend in an unfriendly sea.
 {% endsectionHeader %}
