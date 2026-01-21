@@ -52,6 +52,8 @@ Union was not always as egalitarian as it is now; for thousands of years prior t
 
 Under SecComm, Union advanced humanity’s diaspora as a glacier scours the earth, flattening cultures left by Old Humanity, societies built by FirstComm, and all whose interpretation of Union’s founding tenets diverged from SecComm’s dogmatic proscriptions.
 
+ThirdComm's eternal task is to repairing this grevious wound to humanity's spirit, and avoiding making the same mistakes.
+
 <p class="smallprint">
   Section appended by request of CentComm Ethics Board
 </p>

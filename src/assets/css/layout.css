@@ -34,6 +34,7 @@ body.gate-pending .site-footer {
     display: flex;
     align-items: center;
     gap: var(--space-1);
+    border-bottom: var(--rule-width) solid var(--rule);
 
     padding-block: var(--space-1);
     padding-inline: var(--space-3);
