@@ -95,6 +95,15 @@
     margin-top: var(--space-3);
 }
 
+.media-slot {
+    display: block;
+    width: clamp(300px, 45vw, 400px);
+    height: auto;
+    margin: 0 auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
 .data-table {
     width: 100%;
     border-collapse: collapse;

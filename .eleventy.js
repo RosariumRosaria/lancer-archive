@@ -11,14 +11,25 @@ module.exports = function (eleventyConfig) {
     </div>
   `;
   });
-
   eleventyConfig.addShortcode("redact", function (text = "", required_clearance = 1) {
     const needed = Number(required_clearance);
-    const count = text.length || 5;
-    const encoded = Buffer.from(String(text), "utf8").toString("base64");
+    const strs = String(text).split(" ");
 
-    return `<span class="redact" data-redact data-required-clearance="${needed}" data-redact-text="${encoded}"><span class="redact-mask" aria-hidden="true">${"█".repeat(count)}</span><span class="redact-text" aria-hidden="true"></span></span>`;
+    let ret = "";
+
+    for (const str of strs) {
+      const encoded = Buffer.from(str, "utf8").toString("base64");
+      const count = str.length;
+
+      ret += `<span class="redact" data-redact data-required-clearance="${needed}" data-redact-text="${encoded}">
+      <span class="redact-mask" aria-hidden="true">${"█".repeat(count)}</span>
+      <span class="redact-text" aria-hidden="true"></span>
+    </span> `;
+    }
+
+    return ret.trim();
   });
+
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
