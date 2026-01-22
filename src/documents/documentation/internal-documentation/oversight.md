@@ -33,7 +33,7 @@ Alongside its regular duties, OVERSIGHT assumed responsibility for the remaining
   Excerpt from Administrator von Coln
   {% endsectionHeader %}
 
-  I wish to remind all members of OVERSIGHT that your mandate is neither to compel cultural change nor to enforce ideological conformity.
+  I wish to remind all members of OVERSIGHT that your mandate is not to rule or to punish.
 
   Restraint is essential. Any other course risks reproducing the failures of SecComm.
 
