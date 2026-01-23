@@ -23,8 +23,8 @@ module.exports = function (eleventyConfig) {
       const count = str.length;
 
       ret += `<span class="redact" data-redact data-required-clearance="${needed}" data-redact-text="${encoded}">
-      <span class="redact-mask"${"█".repeat(count)}</span>
-      <span class="redact-text></span>
+      <span class="redact-mask">${"█".repeat(count)}</span>
+      <span class="redact-text"></span>
     </span> `;
     }
 
