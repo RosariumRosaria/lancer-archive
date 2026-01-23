@@ -5,9 +5,6 @@
     function applyTheme(theme) {
         if (!theme) return;
         document.body.setAttribute("data-theme", theme);
-        toggles.forEach((btn) => {
-            btn.setAttribute(theme === "dark" ? "true" : "false");
-        });
 
         const logo = document.querySelector("[data-theme-logo]");
         if (logo) {
