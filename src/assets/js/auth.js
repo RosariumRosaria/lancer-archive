@@ -58,6 +58,7 @@
             window.location.href = "/login/";
         }
     }
+
     window.ArchiveAuth = {
         getSession,
         setSession,

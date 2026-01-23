@@ -8,7 +8,6 @@
         <a
           class="nav-link{% if isActive %} is-active{% elseif isParent %} is-parent{% endif %}"
           href="{{ item.url }}"
-          {% if isActive %}aria-current="page"{% endif %}
         >
           <span class="nav-label">{{ item.title or item.key }}</span>
         </a>
@@ -23,7 +22,7 @@
 
 {% set nav = collections.all | eleventyNavigation %}
 
-<nav class="nav" aria-label="Archive Directory">
+<nav class="nav">
   <div class="nav-header">
     <div class="nav-kicker">DIRECTORY</div>
     <div class="nav-title">ARCHIVE INDEX</div>

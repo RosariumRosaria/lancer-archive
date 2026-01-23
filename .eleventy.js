@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
     </div>
   `;
   });
+
   eleventyConfig.addShortcode("redact", function (text = "", required_clearance = 1) {
     const needed = Number(required_clearance);
     const strs = String(text).split(" ");
@@ -22,8 +23,8 @@ module.exports = function (eleventyConfig) {
       const count = str.length;
 
       ret += `<span class="redact" data-redact data-required-clearance="${needed}" data-redact-text="${encoded}">
-      <span class="redact-mask" aria-hidden="true">${"█".repeat(count)}</span>
-      <span class="redact-text" aria-hidden="true"></span>
+      <span class="redact-mask"${"█".repeat(count)}</span>
+      <span class="redact-text></span>
     </span> `;
     }
 

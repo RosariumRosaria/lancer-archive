@@ -6,7 +6,7 @@
         if (!theme) return;
         document.body.setAttribute("data-theme", theme);
         toggles.forEach((btn) => {
-            btn.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+            btn.setAttribute(theme === "dark" ? "true" : "false");
         });
 
         const logo = document.querySelector("[data-theme-logo]");

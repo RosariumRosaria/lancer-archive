@@ -22,7 +22,7 @@ NHP, Naval Adjunct
 
 Kiora is a shipboard NHP currently assigned to the UNS-EX *Last Refuge of Fools*.
 
-She is of the THASSALA lineage and presents as a stable, archetypal instance of that class.
+She is of the THASSALA lineage and presents as a stable, archetypal instance.
 
 Following an extended service record across multiple naval postings, Kiora has requested transfer to a groundside role.
 
@@ -46,7 +46,7 @@ Kiora's service history includes multiple shipboard assignments, both in advisor
 
 Performance documentation indicates consistently positive evaluations, proving both to improve morale and to have a clear head under pressure.
 
-Records from the Dawnline Shore campaigns list Kiora as assigned to peacekeeping operations, where she received commendations for restraint and de-escalation support.
+Records from the Dawnline Shore campaigns list Kiora as assigned to peacekeeping operations, where she received commendations for restraint and cooling tensions.
 
 ---
 

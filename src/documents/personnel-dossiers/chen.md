@@ -20,11 +20,11 @@ OVERSEER
 
 ### Summary
 
-Overseer Allison Chen is a senior OVERSIGHT operative assigned to Reihenstadt.
+Overseer Allison Chen is a senior OVERSIGHT operative on Reihenstadt, managing a small base on Night side.
 
 Her responsibilities include operational planning, field guidance for deployed agents, and associated administrative tasks.
 
-She currently serves as the primary liaison between OVERSIGHT and incoming LANCER assets.
+She's recently had a small Lancer team assigned under her purview.
 
 <div class="card">
   <div class="data-table__title">Biometric Info</div>
