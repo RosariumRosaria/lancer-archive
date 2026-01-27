@@ -1,5 +1,6 @@
 .horus {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.05);
+    animation: distort-subtle 5s infinite;
 }
 
 
@@ -8,6 +9,17 @@
     color: #fff;
     animation: distort 0.6s infinite;
 }
+
+.horus--subtle {
+    animation: distort-subtle 5s infinite;
+}
+
+.horus--unsubtle {
+    background-color: black;
+    color: #fff;
+    animation: distort 0.6s infinite;
+}
+
 
 @keyframes distort {
     0% {
@@ -38,5 +50,55 @@
         text-shadow: -2px 0 #ff00ff, 2px -1px #00ffff;
         transform: translate(-2px, 0) translate3D(-30px, 0px, 0) rotate(-0.1deg);
         cursor: all-scroll;
+    }
+}
+
+@keyframes distort-subtle {
+    25% {
+        text-shadow: none;
+    }
+
+    26% {
+        text-shadow: 2px -1px #ff0000, -2px 3px #00ffff;
+    }
+
+    27% {
+        text-shadow: -2px -3px #ff0000, 2px 1px #00ffff;
+    }
+
+    28% {
+        text-shadow: 2px 1px #ff0000, -4px 1px #00ffff;
+    }
+
+    29% {
+        text-shadow: -4px 1px #ff0000, -2px -1px #00ffff;
+    }
+
+    30% {
+        text-shadow: none;
+    }
+
+    75% {
+        text-shadow: none;
+    }
+
+    76% {
+        text-shadow: -4px 1px #ff0000, -2px -1px #00ffff;
+    }
+
+    77% {
+        text-shadow: -2px -3px #ff0000, 2px 1px #00ffff;
+    }
+
+    78% {
+        text-shadow: 2px -1px #ff0000, -2px 3px #00ffff;
+    }
+
+    79% {
+        text-shadow: 2px 1px #ff0000, -4px 1px #00ffff;
+    }
+
+    80% {
+        text-shadow: none;
     }
 }

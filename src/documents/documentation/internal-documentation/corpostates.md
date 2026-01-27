@@ -28,6 +28,8 @@ These entities are notable not only for their dominance in industrial, commercia
 
 **IPS-Northstar**, while holding comparatively less territorial control, maintains extensive holdings in stations and gate infrastructure, supported by a fleet unmatched in scale.
 
+---
+
 {% sectionHeader "IPS-Northstar" %}
 Your friend in an unfriendly sea.
 {% endsectionHeader %}
