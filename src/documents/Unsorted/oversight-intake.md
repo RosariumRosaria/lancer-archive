@@ -1,11 +1,11 @@
 ---
 layout: layouts/base.njk
-title: Intake Form A1
-permalink: /documents/unsorted/intake/
+title: Intake Form A2
+permalink: /documents/unsorted/intake-oversight/
 tags: ["unsorted"]
 ---
 
-{% sectionHeader "LANCER INTAKE QUESTIONNAIRE" %}
+{% sectionHeader "OVERSIGHT INTAKE QUESTIONNAIRE" %}
 {% endsectionHeader %}
 
 Please keep the following questions in mind for creating a character.
@@ -83,10 +83,10 @@ Are you a grizzled veteran or some fresh faced recruit?
 {% sectionHeader "Connections" %}
 {% endsectionHeader %}
 
-1. **Do you know anyone currently aboard the ship?**
-2. **Have you served with any of the other player's Lancers before?**
+1. **Do you know any of your colleagues well?**
 
-Everyone should know at least one or two people in the universe, but they don't need to be on the ship/in system.
+2. **Do you have any closes friends outside of the org?**
+
 </div>
 
 ---
@@ -95,13 +95,17 @@ Everyone should know at least one or two people in the universe, but they don't 
 {% sectionHeader "Flavor" %}
 {% endsectionHeader %}
 
-**You have heard a rumor about the planet you're going to (Reihenstadt?). What is it?**
+**You have heard a rumor about Union's integration efforts. What is it?**
 
 This rumor may be accurate, distorted, or entirely false.
 
 **What is the most memorable mission you have participated in?**
 
 This may be notable due to success, failure, moral compromise, or personal consequences.
+
+**How do you feel about the offworlder groups? Do you lean more to Union, Harrison Armories, or neither?**
+
+Recent years have brought much change to your home, between union intervention, an attempted take over by HA, and the disappearance of your the Union Administrator.
 </div>
 
 ---
