@@ -36,6 +36,16 @@
       REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
     </p>
 
+    <button
+      class="classification classification-action site-menu-toggle"
+      type="button"
+      data-sidebar-toggle
+      aria-controls="site-sidebar"
+      aria-expanded="false"
+    >
+      MENU
+    </button>
+
 <button
   class="classification classification-action"
   type="button"
@@ -47,17 +57,6 @@
   </div>
   </div>
 </header>
-
-<button
-  class="sidebar-edge-toggle"
-  type="button"
-  data-sidebar-toggle
-  aria-controls="site-sidebar"
-  aria-expanded="false"
-  aria-label="Toggle archive index"
->
-  INDEX
-</button>
 
 <div class="shell">
   <aside class="sidebar" id="site-sidebar">
