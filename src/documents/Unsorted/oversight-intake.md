@@ -23,7 +23,7 @@ Your character should be able to answer most of these, but they can also develop
 **Who are you? What are you like?**
 <span class="guidance">What is your personality? What do you like/dislike.</span>
 
-<span class="guidance">How old are you? What do you look like? Are you a baseline human, or do you have some genetic tampering/drift/machine parts?/span>
+<span class="guidance">How old are you? What do you look like? Are you a baseline human, or do you have some genetic tampering/drift/machine parts?</span>
 
 **Where are you from?**
 <span class="guidance">You do not need to specify a specific planet, a general *vibe* is enough.</span>
