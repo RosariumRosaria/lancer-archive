@@ -60,10 +60,10 @@
   </aside>
 
   <main class="page">
+    {% set required_clearance_value = clearance_required | default(0) | int %}
     <article
       class="prose"
-      data-pagefind-meta="clearance: {{ clearance_required | default(0) }}"
-      data-pagefind-filter="clearance: {{ clearance_required | default(0) }}"
+      data-pagefind-meta="clearance: {{ required_clearance_value }}"
     >
       {{ content | safe }}
     </article>

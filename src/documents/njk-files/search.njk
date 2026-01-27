@@ -16,18 +16,30 @@ title: Search Terminal
 <div id="search"></div>
 <script>
   window.addEventListener("DOMContentLoaded", () => {
-    const session = window.ArchiveAuth?.getSession?.();
-    const clearance = Number.isFinite(session?.clearance) ? session.clearance : 0;
-    const maxClearance = Math.max(0, Math.floor(clearance));
-    const allowedClearances = Array.from({ length: maxClearance + 1 }, (_, i) => String(i));
+    const MAX_CLEARANCE = 1;
 
-    const ui = new PagefindUI({
+    new PagefindUI({
       element: "#search",
-      showSubResults: true,
-      showEmptyFilters: false
+      showSubResults: true
     });
 
-    ui.triggerFilters({ clearance: allowedClearances });
+    const gateResults = () => {
+      document.querySelectorAll(".pagefind-ui__result").forEach((result) => {
+        const meta = result.querySelector('[data-pagefind-ui-meta="clearance"]');
+        const match = meta?.textContent?.match(/:\s*(\d+)/);
+        const clearance = match ? Number(match[1]) : 0;
+        const shouldHide = Number.isFinite(clearance) && clearance > MAX_CLEARANCE;
+        result.style.display = shouldHide ? "none" : "";
+        if (meta) meta.style.display = "none";
+      });
+    };
+
+    const observer = new MutationObserver(gateResults);
+    const searchRoot = document.getElementById("search");
+    if (searchRoot) {
+      observer.observe(searchRoot, { childList: true, subtree: true });
+    }
+    gateResults();
   });
 </script>
 
@@ -35,5 +47,3 @@ title: Search Terminal
     Note, this feature is experimental.
   </p>
 </div>
-
-</script>
