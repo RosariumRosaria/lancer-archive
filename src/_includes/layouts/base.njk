@@ -60,7 +60,11 @@
   </aside>
 
   <main class="page">
-    <article class="prose">
+    <article
+      class="prose"
+      data-pagefind-meta="clearance: {{ clearance_required | default(0) }}"
+      data-pagefind-filter="clearance: {{ clearance_required | default(0) }}"
+    >
       {{ content | safe }}
     </article>
   </main>

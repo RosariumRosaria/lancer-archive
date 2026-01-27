@@ -8,8 +8,6 @@ title: Search Terminal
   {% sectionHeader "SEARCH TERMINAL" %}
   File Search
   {% endsectionHeader %}
-
-  <p>Enter your search keywords.</p>
   <hr>
 
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
@@ -17,9 +15,20 @@ title: Search Terminal
 <script src="/pagefind/pagefind-ui.js"></script>
 <div id="search"></div>
 <script>
-	window.addEventListener("DOMContentLoaded", (event) => {
-		new PagefindUI({ element: "#search", showSubResults: true });
-	});
+  window.addEventListener("DOMContentLoaded", () => {
+    const session = window.ArchiveAuth?.getSession?.();
+    const clearance = Number.isFinite(session?.clearance) ? session.clearance : 0;
+    const maxClearance = Math.max(0, Math.floor(clearance));
+    const allowedClearances = Array.from({ length: maxClearance + 1 }, (_, i) => String(i));
+
+    const ui = new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      showEmptyFilters: false
+    });
+
+    ui.triggerFilters({ clearance: allowedClearances });
+  });
 </script>
 
   <p class="smallprint">

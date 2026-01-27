@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
     "build": "eleventy",
-    "postbuild": "npx -y pagefind --site _site"
+    "postbuild": "npx -y pagefind --site _site",
+    "search:build": "npm run build && npm run pagefind",
+    "pagefind": "npx -y pagefind --site _site",
+    "search:serve": "npm run build && npm run pagefind -- --serve"
   },
   "keywords": [],
   "author": "",

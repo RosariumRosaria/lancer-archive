@@ -14,6 +14,10 @@
     content: none !important;
 }
 
+.pagefind-ui__filter-panel {
+    display: none !important;
+}
+
 .pagefind-ui__search-input,
 .pagefind-ui__search-input.svelte-e9gkc3 {
     width: 100%;
