@@ -274,9 +274,12 @@ body.gate-pending .site-footer {
 .classification-action {
     cursor: pointer;
     background: transparent;
-    border-color: var(--paper);
+    border: var(--rule-width) solid var(--paper);
     color: var(--paper);
     padding: 0.15em 0.5em;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
 
     font-weight: var(--fw-title);
     text-decoration: none;
@@ -285,11 +288,12 @@ body.gate-pending .site-footer {
 .classification-action:hover {
     background: var(--paper);
     color: var(--alert-red);
-    border-color: var(--alert-red);
+    border-color: var(--paper);
 }
 
 .classification-action:focus-visible {
-    outline: 2px solid var(--alert-red);
+    border-color: var(--paper);
+    outline: 2px solid var(--paper);
     outline-offset: 2px;
 }
 
