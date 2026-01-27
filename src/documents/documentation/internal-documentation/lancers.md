@@ -20,8 +20,6 @@ Across the galaxy, “lancer” has become a catch-all name for exceptionally da
 
 Nowhere is “lancer” considered an official rank or classification. Lancers are set apart by ability, talent, training, luck, skill, reputation, or some combination of these qualities; they aren’t qualified as lancers by any medal, certification, or promotion. It’s simply an appellation given to exceptional pilots based on time in the saddle and performance in the field.
 
----
-
 ### Who are you?
 
 Your character in the world of Lancer is a mechanized cavalry pilot of particular note – a lancer. Whatever the mission, whatever the terrain, whatever the enemy, your character is the one who is called in to break the siege or hold the line. When the drop klaxons sound, it’s up to them to save the day. Your lancer hails from a world and culture of your choice, but is human.
@@ -35,3 +33,5 @@ Whatever led your character to the cockpit of their mech, they are the sum of ma
 <p class="smallprint">
   These are taken from the core books introduction, feel free to read there for more info!
 </p>
+
+---
