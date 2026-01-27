@@ -20,17 +20,17 @@ Your character should be able to answer most of these, but they can also develop
 {% sectionHeader "History and Overview" %}
 {% endsectionHeader %}
 
-- **Who are you? What are you like?**  
+**Who are you? What are you like?**  
 What is your personality? What does your character's like/dislike.
 
 How old are you? What do you look like? Are you a baseline human, or do you have some genetic tampering/drift/machine parts?
 
-- **Where are you from?**  
+**Where are you from?**  
 You do not need to specify a specific planet, a general *vibe* is enough.
 
 The galaxy is big. We can either find an existing world that fits, or create something new.
 
-- **What is your background?**  
+**What is your background?**  
 You have a fair few options, you could be a cowboy, bounty hunter, knight, corporate asset, mechanic, hacker, or something stranger.
 
 The backgrounds in COMP/CON might help here.
@@ -43,7 +43,7 @@ The backgrounds in COMP/CON might help here.
 {% sectionHeader "Battlefield Role" %}
 {% endsectionHeader %}
 
-- **What role do you play on the battlefield?**  
+**What role do you play on the battlefield?**  
 This is roughly equivalent to your class in DnD, the frames and talents in COMP/CON might help guide you.
 
 **Examples:**
@@ -67,11 +67,11 @@ This is roughly equivalent to your class in DnD, the frames and talents in COMP/
 {% sectionHeader "Service History" %}
 {% endsectionHeader %}
 
-- **How did you become a Lancer?**
+**How did you become a Lancer?**
 
 Were you formally trained, promoted suddenly on the battlefield, rescued from a corporate gene lab, or perhaps you're just a nepo baby?
 
-- **How long have you been one?**
+**How long have you been one?**
 
 Are you a grizzled veteran or some fresh faced recruit?
 
@@ -83,8 +83,8 @@ Are you a grizzled veteran or some fresh faced recruit?
 {% sectionHeader "Connections" %}
 {% endsectionHeader %}
 
-- **Do you know anyone currently aboard the ship?**
-- **Have you served with any of the other player's Lancers before?**
+**Do you know anyone currently aboard the ship?**
+**Have you served with any of the other player's Lancers before?**
 
 Everyone should know at least one or two people in the universe, but they don't need to be on the ship/in system.
 </div>
@@ -95,11 +95,11 @@ Everyone should know at least one or two people in the universe, but they don't 
 {% sectionHeader "Flavor" %}
 {% endsectionHeader %}
 
-- **You have heard a rumor about the planet you're going to (Reihenstadt?). What is it?**
+**You have heard a rumor about the planet you're going to (Reihenstadt?). What is it?**
 
 This rumor may be accurate, distorted, or entirely false.
 
-- **What is the most memorable mission you have participated in?**
+**What is the most memorable mission you have participated in?**
 
 This may be notable due to success, failure, moral compromise, or personal consequences.
 </div>
