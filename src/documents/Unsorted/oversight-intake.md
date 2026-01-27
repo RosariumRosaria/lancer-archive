@@ -67,11 +67,11 @@ This is roughly equivalent to your class in DnD, the frames and talents in COMP/
 {% sectionHeader "Service History" %}
 {% endsectionHeader %}
 
-1. **How did you become a Lancer?**
+**How did you become a Lancer?**
 
 Were you formally trained, promoted suddenly on the battlefield, rescued from a corporate gene lab, or perhaps you're just a nepo baby?
 
-1. **How long have you been one?**
+**How long have you been one?**
 
 Are you a grizzled veteran or some fresh faced recruit?
 
@@ -83,9 +83,9 @@ Are you a grizzled veteran or some fresh faced recruit?
 {% sectionHeader "Connections" %}
 {% endsectionHeader %}
 
-1. **Do you know any of your colleagues well?**
+**Do you know any of your colleagues well?**
 
-2. **Do you have any closes friends outside of the org?**
+**Do you have any closes friends outside of the org?**
 
 </div>
 
@@ -105,7 +105,7 @@ This may be notable due to success, failure, moral compromise, or personal conse
 
 **How do you feel about the offworlder groups? Do you lean more to Union, Harrison Armories, or neither?**
 
-Recent years have brought much change to your home, between union intervention, an attempted take over by HA, and the disappearance of your the Union Administrator.
+Recent years have brought much change to your home, between Union intervention, an attempted take over by HA, and the disappearance of your the Union Administrator.
 </div>
 
 ---

@@ -67,11 +67,11 @@ This is roughly equivalent to your class in DnD, the frames and talents in COMP/
 {% sectionHeader "Service History" %}
 {% endsectionHeader %}
 
-1. **How did you become a Lancer?**
+**How did you become a Lancer?**
 
 Were you formally trained, promoted suddenly on the battlefield, rescued from a corporate gene lab, or perhaps you're just a nepo baby?
 
-1. **How long have you been one?**
+**How long have you been one?**
 
 Are you a grizzled veteran or some fresh faced recruit?
 
@@ -83,8 +83,8 @@ Are you a grizzled veteran or some fresh faced recruit?
 {% sectionHeader "Connections" %}
 {% endsectionHeader %}
 
-1. **Do you know anyone currently aboard the ship?**
-2. **Have you served with any of the other player's Lancers before?**
+**Do you know anyone currently aboard the ship?**
+**Have you served with any of the other player's Lancers before?**
 
 Everyone should know at least one or two people in the universe, but they don't need to be on the ship/in system.
 </div>
