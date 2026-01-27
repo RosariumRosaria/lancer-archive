@@ -36,16 +36,6 @@
       REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
     </p>
 
-    <button
-      class="classification classification-action site-menu-toggle"
-      type="button"
-      data-sidebar-toggle
-      aria-controls="site-sidebar"
-      aria-expanded="false"
-    >
-      MENU
-    </button>
-
 <button
   class="classification classification-action"
   type="button"
@@ -59,7 +49,7 @@
 </header>
 
 <div class="shell">
-  <aside class="sidebar" id="site-sidebar">
+  <aside class="sidebar">
     {% include "components/nav.njk" %}
   </aside>
 
@@ -70,7 +60,6 @@
   </main>
 </div>
 
-<div class="sidebar-scrim" data-sidebar-scrim></div>
 
 <footer class="site-footer">
   <p>Document ID: {{ document_id }}</p>
@@ -81,7 +70,6 @@
 <script src="/assets/js/theme.js"></script>
 <script src="/assets/js/redact.js"></script>
 <script src="/assets/js/gate.js"></script>
-<script src="/assets/js/sidebar.js"></script>
 
 </body>
 </html>
