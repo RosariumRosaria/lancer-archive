@@ -90,6 +90,14 @@
     margin: 0 0 var(--space-3);
 }
 
+.guidance {
+    display: block;
+    margin: 0 0 var(--space-2);
+    padding-left: var(--indent);
+}
+
+
+
 .card--spaced {
     margin-top: var(--space-3);
 }

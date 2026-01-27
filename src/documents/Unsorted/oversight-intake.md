@@ -20,20 +20,19 @@ Your character should be able to answer most of these, but they can also develop
 {% sectionHeader "History and Overview" %}
 {% endsectionHeader %}
 
-**Who are you? What are you like?**  
-What is your personality? What does your character's like/dislike.
+**Who are you? What are you like?**
+<span class="guidance">What is your personality? What does your character's like/dislike.</span>
 
-How old are you? What do you look like? Are you a baseline human, or do you have some genetic tampering/drift/machine parts?
+<span class="guidance">How old are you? What do you look like? Are you a baseline human, or do you have some genetic tampering/drift/machine parts?/span>
 
-**Where are you from?**  
-You do not need to specify a specific planet, a general *vibe* is enough.
+**Where are you from?**
+<span class="guidance">You do not need to specify a specific planet, a general *vibe* is enough.</span>
 
-The galaxy is big. We can either find an existing world that fits, or create something new.
+<span class="guidance">The galaxy is big. We can either find an existing world that fits, or create something new.</span>
 
-**What is your background?**  
-You have a fair few options, you could be a cowboy, bounty hunter, knight, corporate asset, mechanic, hacker, or something stranger.
-
-The backgrounds in COMP/CON might help here.
+**What is your background?**
+<span class="guidance">You have a fair few options, you could be a cowboy, bounty hunter, knight, corporate asset, mechanic, hacker, or something stranger.</span>
+<span class="guidance">The backgrounds in COMP/CON might help here.</span>
 
 </div>
 
@@ -43,8 +42,8 @@ The backgrounds in COMP/CON might help here.
 {% sectionHeader "Battlefield Role" %}
 {% endsectionHeader %}
 
-**What role do you play on the battlefield?**  
-This is roughly equivalent to your class in DnD, the frames and talents in COMP/CON might help guide you.
+**What role do you play on the battlefield?**
+<span class="guidance">This is roughly equivalent to your class in DnD, the frames and talents in COMP/CON might help guide you.</span>
 
 **Examples:**
 
@@ -69,11 +68,11 @@ This is roughly equivalent to your class in DnD, the frames and talents in COMP/
 
 **How did you become a Lancer?**
 
-Were you formally trained, promoted suddenly on the battlefield, rescued from a corporate gene lab, or perhaps you're just a nepo baby?
+<span class="guidance">Were you formally trained, promoted suddenly on the battlefield, rescued from a corporate gene lab, or perhaps you're just a nepo baby?</span>
 
 **How long have you been one?**
 
-Are you a grizzled veteran or some fresh faced recruit?
+<span class="guidance">Are you a grizzled veteran or some fresh faced recruit?</span>
 
 </div>
 
@@ -96,16 +95,14 @@ Are you a grizzled veteran or some fresh faced recruit?
 {% endsectionHeader %}
 
 **You have heard a rumor about Union's integration efforts. What is it?**
-
-This rumor may be accurate, distorted, or entirely false.
+<span class="guidance">This rumor may be accurate, distorted, or entirely false.</span>
 
 **What is the most memorable mission you have participated in?**
-
-This may be notable due to success, failure, moral compromise, or personal consequences.
+<span class="guidance">This may be notable due to success, failure, moral compromise, or personal consequences.</span>
 
 **How do you feel about the offworlder groups? Do you lean more to Union, Harrison Armories, or neither?**
 
-Recent years have brought much change to your home, between Union intervention, an attempted take over by HA, and the disappearance of your the Union Administrator.
+<span class="guidance">Recent years have brought much change to your home, between Union intervention, an attempted take over by HA, and the disappearance of your the Union Administrator.</span>
 </div>
 
 ---
