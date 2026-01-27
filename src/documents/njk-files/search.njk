@@ -16,19 +16,20 @@ title: Search Terminal
 <div id="search"></div>
 <script>
   window.addEventListener("DOMContentLoaded", () => {
-    const MAX_CLEARANCE = 1;
-
     new PagefindUI({
       element: "#search",
       showSubResults: true
     });
 
     const gateResults = () => {
+      const clearanceVal = Number(window.ArchiveAuth?.getSession?.()?.clearance);
+      const maxClearance = Number.isFinite(clearanceVal) ? clearanceVal : 0;
+
       document.querySelectorAll(".pagefind-ui__result").forEach((result) => {
         const meta = result.querySelector('[data-pagefind-ui-meta="clearance"]');
         const match = meta?.textContent?.match(/:\s*(\d+)/);
         const clearance = match ? Number(match[1]) : 0;
-        const shouldHide = Number.isFinite(clearance) && clearance > MAX_CLEARANCE;
+        const shouldHide = Number.isFinite(clearance) && clearance > maxClearance;
         result.style.display = shouldHide ? "none" : "";
         if (meta) meta.style.display = "none";
       });
