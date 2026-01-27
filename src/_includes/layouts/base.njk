@@ -11,9 +11,10 @@
   class="gate-pending{% if layout_columns == 2 %} columns-2{% endif %}"
   data-theme="{{ theme | default('default') }}"
   data-required-clearance="{{ clearance_required | default(0) }}"
+  {% if pagefind_ignore %}data-pagefind-ignore="all"{% endif %}
 >
 
-<header class="site-header">
+<header class="site-header" data-pagefind-ignore="all">
   <button class="site-logo" type="button" data-theme-toggle>
     <img
       src="/assets/images/oversightlogoheader.svg"
@@ -36,13 +37,18 @@
       REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
     </p>
 
-<button
-  class="classification classification-action"
-  type="button"
-  data-archive-auth-toggle
->
-  LOG IN
-</button>
+    <div class="header-actions">
+      <a class="classification classification-action" href="/search/">
+        SEARCH
+      </a>
+      <button
+        class="classification classification-action"
+        type="button"
+        data-archive-auth-toggle
+      >
+        LOG IN
+      </button>
+    </div>
 
   </div>
   </div>
@@ -61,7 +67,7 @@
 </div>
 
 
-<footer class="site-footer">
+<footer class="site-footer" data-pagefind-ignore="all">
   <p>Document ID: {{ document_id }}</p>
 </footer>
 

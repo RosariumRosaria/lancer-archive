@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: External Documentation
 document_id: ED
 clearance_required: 1
+pagefind_ignore: true
 tags: ["hub"]
 permalink: /documents/externaldocumentation/
 eleventyNavigation:

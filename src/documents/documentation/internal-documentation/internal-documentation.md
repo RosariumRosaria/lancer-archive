@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: Internal Documentation
 document_id: ID
 clearance_required: 1
+pagefind_ignore: true
 tags: ["hub"]
 permalink: /documents/internal-documentation/
 eleventyNavigation:

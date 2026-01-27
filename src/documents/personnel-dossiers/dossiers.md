@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: Personnel Dossiers
 document_id: PD
 clearance_required: 1
+pagefind_ignore: true
 tags: ["hub"]
 permalink: /documents/personneldossiers/
 eleventyNavigation:

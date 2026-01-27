@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: Incident Reports
 document_id: IR
 clearance_required: 1
+pagefind_ignore: true
 tags: ["hub"]
 permalink: /documents/incident-reports/
 eleventyNavigation:
