@@ -125,11 +125,13 @@ body.gate-pending .site-footer {
     font-size: var(--fs-xs);
     text-transform: uppercase;
     color: var(--tag-gray);
+    letter-spacing: var(--tracking-sm);
 }
 
 .nav-title {
     font-weight: var(--fw-title);
     text-transform: uppercase;
+    letter-spacing: var(--tracking-sm);
 }
 
 
@@ -207,6 +209,7 @@ body.gate-pending .site-footer {
 
     font-weight: var(--fw-title);
     text-transform: uppercase;
+    letter-spacing: var(--tracking-sm);
     cursor: pointer;
 }
 
@@ -243,6 +246,7 @@ body.gate-pending .site-footer {
     font-weight: var(--fw-title);
     text-transform: uppercase;
     color: var(--tag-gray);
+    letter-spacing: var(--tracking-sm);
 }
 
 .field-input {

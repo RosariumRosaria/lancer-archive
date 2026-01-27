@@ -19,6 +19,7 @@
     padding-top: var(--space-1);
 
     text-transform: uppercase;
+    letter-spacing: var(--tracking-sm);
 
     border-top: 1px dashed var(--rule);
 }
@@ -35,6 +36,7 @@
 
     --fw-semibold: 600;
     text-transform: uppercase;
+    letter-spacing: var(--tracking-sm);
     color: var(--tag-gray);
 
     border-left: var(--accent-width) solid var(--alert-red);
@@ -53,6 +55,7 @@
 .classification {
     font-weight: var(--fw-bold);
     text-transform: uppercase;
+    letter-spacing: var(--tracking-sm);
     display: inline-block;
     padding: 0.15em 0.5em;
     border: var(--rule-width) solid var(--paper);
@@ -120,6 +123,7 @@
 .data-table__title {
     font-weight: var(--fw-title);
     text-transform: uppercase;
+    letter-spacing: var(--tracking-sm);
     margin: 0 0 var(--space-1);
     color: var(--alert-red);
     border-bottom: 1px dashed var(--rule);
@@ -137,6 +141,7 @@
     text-align: left;
     width: 40%;
     text-transform: uppercase;
+    letter-spacing: var(--tracking-sm);
     font-size: var(--fs-xs);
     color: var(--tag-gray);
 }
@@ -184,6 +189,7 @@
 .timeline__date {
     font-weight: var(--fw-bold);
     text-transform: uppercase;
+    letter-spacing: var(--tracking-sm);
     color: var(--alert-red);
 }
 
