@@ -22,7 +22,9 @@
     --fs-xs: 0.8rem;
     --fs-xl: 2.6rem;
 
-    --tracking-sm: 0.04em;
+    --tracking-sm: 0.05em;
+    --med-sm: 0.1em;
+    --big-sm: 0.16em;
 
     --fw-regular: 400;
     --fw-medium: 500;

@@ -125,13 +125,13 @@ body.gate-pending .site-footer {
     font-size: var(--fs-xs);
     text-transform: uppercase;
     color: var(--tag-gray);
-    letter-spacing: var(--tracking-sm);
+    letter-spacing: var(--big-sm);
 }
 
 .nav-title {
     font-weight: var(--fw-title);
     text-transform: uppercase;
-    letter-spacing: var(--tracking-sm);
+    letter-spacing: var(--med-sm);
 }
 
 

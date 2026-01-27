@@ -11,6 +11,7 @@
 
 .prose h2 {
     margin-top: var(--space-1);
+    letter-spacing: var(--tracking-sm);
 }
 
 .prose h3 {
@@ -204,6 +205,7 @@
     text-align: center;
     color: var(--alert-red);
     font-weight: var(--fw-bold);
+    letter-spacing: var(--med-sm);
 }
 
 .redact {
