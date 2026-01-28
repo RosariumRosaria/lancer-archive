@@ -67,8 +67,8 @@ body.gate-pending .site-footer {
     row-gap: 0;
     padding: 0;
 
-    margin-inline: calc(-1 * var(--space-3));
-    margin-top: calc(-1 * var(--space-3));
+    margin-inline: calc(-1 * var(--page-pad));
+    margin-top: calc(-1 * var(--page-pad));
     margin-bottom: 0;
 }
 
@@ -179,13 +179,13 @@ body.gate-pending .site-footer {
     display: flex;
     align-items: center;
     gap: var(--space-1);
-    padding: var(--space-1) var(--space-3);
+    padding: var(--space-1) var(--page-pad);
     border-top: var(--rule-width) solid var(--rule);
     position: sticky;
     top: 0;
     z-index: 10;
     background: var(--dark-red);
-    margin-inline: calc(-1 * var(--space-3));
+    margin-inline: calc(-1 * var(--page-pad));
     margin-bottom: var(--space-3);
 }
 

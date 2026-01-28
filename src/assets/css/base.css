@@ -11,6 +11,7 @@
     --space-1: 0.5rem;
     --space-2: 1rem;
     --space-3: 2rem;
+    --page-pad: var(--space-3);
 
     --content-max: 78ch;
     --rule-width: 2px;
@@ -70,7 +71,7 @@ body[data-theme="dark"] {
 
 body {
     margin: 0;
-    padding: var(--space-3);
+    padding: var(--page-pad);
     background: var(--paper);
     color: var(--ink);
     font-family: var(--font-body);
@@ -80,7 +81,11 @@ body {
 }
 
 @media (max-width: 480px) {
+    :root {
+        --page-pad: var(--space-2);
+    }
+
     body {
-        padding: var(--space-2);
+        padding: var(--page-pad);
     }
 }
