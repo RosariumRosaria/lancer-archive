@@ -277,12 +277,12 @@ body.gate-pending .site-footer {
     outline-offset: 2px;
 }
 
-.dir-toggle {
-    display: none;
+.site-header .dir-toggle {
+    display: none !important;
 }
 
 .site-header .classification.classification-action-clearance {
-    display: none;
+    display: none !important;
     cursor: default;
 }
 
@@ -363,8 +363,8 @@ body.gate-pending .site-footer {
         text-align: center;
     }
 
-    .dir-toggle {
-        display: inline-flex;
+    .site-header .dir-toggle {
+        display: inline-flex !important;
     }
 
     .site-header h1 {
