@@ -59,17 +59,21 @@ body.gate-pending .site-footer {
     color: var(--paper);
     border-bottom: var(--rule-width) solid var(--rule);
 
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    margin-top: calc(-1 * var(--space-3));
+    margin-bottom: 0;
+}
+
+.site-header-inner {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-areas:
         "logo title";
     column-gap: var(--space-2);
     row-gap: 0;
-    padding: 0;
-
-    margin-inline: calc(-1 * var(--space-3));
-    margin-top: calc(-1 * var(--space-3));
-    margin-bottom: 0;
+    padding: 0 var(--space-3);
 }
 
 .site-logo {
@@ -176,17 +180,22 @@ body.gate-pending .site-footer {
 
 
 .header-meta {
-    display: flex;
-    align-items: center;
-    gap: var(--space-1);
-    padding: var(--space-1) var(--space-3);
     border-top: var(--rule-width) solid var(--rule);
     position: sticky;
     top: 0;
     z-index: 10;
     background: var(--dark-red);
-    margin-inline: calc(-1 * var(--space-3));
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
     margin-bottom: var(--space-3);
+}
+
+.header-meta-inner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: var(--space-1) var(--space-3);
 }
 
 .header-meta .classification {
