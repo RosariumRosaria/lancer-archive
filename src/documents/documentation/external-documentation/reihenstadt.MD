@@ -24,7 +24,7 @@ The early colonies faced periods of unrest, division, and hardship, exacerbated 
 
 Recently, after several centuries of isolation, the gate was successfully repaired with a little help from our friends aboard the Icebox!
 
-Now, we stand ready to rejoin Union adn welcome you with open arms, whether you arrive for commerce, pleasure, or to begin a new life.
+Now, we stand ready to rejoin Union and welcome you with open arms, whether you arrive for commerce, pleasure, or to begin a new life.
 
 <div class="card">
   {% sectionHeader "New in Town?" %}

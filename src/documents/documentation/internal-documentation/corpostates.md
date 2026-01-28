@@ -24,7 +24,7 @@ These entities are notable not only for their dominance in industrial, commercia
 
 **Harrison Armory** governs numerous worlds outright, its imperial ambitions frequently placing it at odds with established powers such as the Karrakin Trade Baronies.
 
-**Smith-Shimano Corpro** administers its vaunted Constellar worlds, where genetic lineages are cultivated to commerical whims.
+**Smith-Shimano Corpro** administers its vaunted Constellar worlds, where genetic lineages are cultivated to commercial whims.
 
 **IPS-Northstar**, while holding comparatively less territorial control, maintains extensive holdings in stations and gate infrastructure, supported by a fleet unmatched in scale.
 
@@ -36,7 +36,7 @@ Your friend in an unfriendly sea.
 
 ### Overview
 
-IPS-Northstar (IPS-N) was created from the merger of two civilian interstellar freight and transportation companies, Interplanetary Shipping and Northstar. The resulting firm IPS-N is a titanic entity – one of the first corpro-states – with a virtual monopoly over interplanetary and interstellar shipping. Other firms exist, but their gross fleet strength is but a shadow of IPS-N’s fleets of tankers, haulers, freighters, and intergate/interstellar liners. Wherever goods and raw materials need to be moved, you can bet a crew in IPS-N uniforms will be there.
+IPS-Northstar (IPS-N) was created from the merger of two civilian interstellar freight and transportation companies, Interplanetary Shipping and Northstar. The resulting firm IPS-N is a titanic entity – one of the first corpro-states – with a virtual monopoly over interplanetary and interstellar shipping. Other firms exist, but their gross fleet strength is but a shadow of IPS-N’s fleets of tankers, haulers, freighters, and integrate/interstellar liners. Wherever goods and raw materials need to be moved, you can bet a crew in IPS-N uniforms will be there.
 
 ### Frames
 

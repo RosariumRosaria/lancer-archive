@@ -68,6 +68,6 @@ OVERSIGHT has grown to have a broad portfolio of responsibilities. A non-exhaust
 
 - Most extant SecComm installations have fallen under its purview.
 
-- OVERSIGHT maintains several liasons with the Kalenderkarte Charter.
+- OVERSIGHT maintains several liaisons with the Kalenderkarte Charter.
 
 - Defense and maintenance of Alpspitze has been transferred to the organization in recent years.
