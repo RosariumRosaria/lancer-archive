@@ -42,7 +42,7 @@
         if (clearanceBtn) {
             clearanceBtn.textContent = isAuthed
                 ? `CL ${session.clearance}`
-                : "CL NONE";
+                : "CL 0";
         }
 
         if (authBtn) {
