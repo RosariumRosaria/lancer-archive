@@ -89,3 +89,9 @@ body {
         padding: var(--page-pad);
     }
 }
+
+@media (max-width: 360px) {
+    :root {
+        --fs-base: 16px;
+    }
+}
