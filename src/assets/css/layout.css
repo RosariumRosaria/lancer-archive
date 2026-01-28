@@ -389,10 +389,10 @@ body.gate-pending .site-footer {
         margin-left: 0;
         width: 100%;
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
-    .classification-action-clearance {
+    .site-header .classification.classification-action-clearance {
         display: inline-flex !important;
     }
 
