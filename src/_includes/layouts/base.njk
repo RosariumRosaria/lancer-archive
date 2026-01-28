@@ -16,60 +16,57 @@
 >
 
 <header class="site-header" data-pagefind-ignore="all">
-  <div class="site-header-inner">
-    <button class="site-logo" type="button" data-theme-toggle>
-      <img
-        src="/assets/images/oversightlogoheader.svg"
-        alt=""
-        data-theme-logo
-        data-logo-light="/assets/images/oversightlogoheader.svg"
-        data-logo-dark="/assets/images/oversightlogoheaderdark.svg"
-      />
-    </button>
-    <div class="site-header-content">
-      <h1 class="site-title">
-        <a href="/">OVERSIGHT ARCHIVE</a>
-      </h1>
-    </div>
+  <button class="site-logo" type="button" data-theme-toggle>
+    <img
+      src="/assets/images/oversightlogoheader.svg"
+      alt=""
+      data-theme-logo
+      data-logo-light="/assets/images/oversightlogoheader.svg"
+      data-logo-dark="/assets/images/oversightlogoheaderdark.svg"
+    />
+  </button>
+  <div class="site-header-content">
+    <h1 class="site-title">
+      <a href="/">OVERSIGHT ARCHIVE</a>
+    </h1>
   </div>
 </header>
 
 <div class="header-meta">
-  <div class="header-meta-inner">
-    <p class="classification classification-session" data-archive-session>
-      SESSION: NONE
-    </p>
-    <p class="classification classification-required">
-      REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
-    </p>
+  <p class="classification classification-session" data-archive-session>
+    SESSION: NONE
+  </p>
+  <p class="classification classification-required">
+    REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
+  </p>
 
-    <div class="header-actions">
-      <button class="classification classification-action dir-toggle" type="button" data-dir-toggle aria-expanded="false">
-        DIR
-      </button>
-      <button
-        class="classification classification-action classification-action-search"
-        type="button"
-        onclick="location.href='/search/'"
-      >
-        SEARCH
-      </button>
-      <button
-        class="classification classification-action classification-action-auth"
-        type="button"
-        data-archive-auth-toggle
-      >
-        LOG IN
-      </button>
-      <button
-        class="classification classification-action classification-action-clearance"
-        type="button"
-        data-archive-clearance
-      >
-        CL 0
-      </button>
-    </div>
+  <div class="header-actions">
+    <button class="classification classification-action dir-toggle" type="button" data-dir-toggle aria-expanded="false">
+      DIR
+    </button>
+    <button
+      class="classification classification-action classification-action-search"
+      type="button"
+      onclick="location.href='/search/'"
+    >
+      SEARCH
+    </button>
+    <button
+      class="classification classification-action classification-action-auth"
+      type="button"
+      data-archive-auth-toggle
+    >
+      LOG IN
+    </button>
+    <button
+      class="classification classification-action classification-action-clearance"
+      type="button"
+      data-archive-clearance
+    >
+      CL 0
+    </button>
   </div>
+
 </div>
 
 <div class="shell">
