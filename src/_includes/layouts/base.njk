@@ -29,29 +29,35 @@
     <h1 class="site-title">
       <a href="/">OVERSIGHT ARCHIVE</a>
     </h1>
+    <div class="header-meta">
+      <p class="classification classification-session" data-archive-session>
+        SESSION: NONE
+      </p>
+      <p class="classification classification-required">
+        REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
+      </p>
 
-  <div class="header-meta">
-    <p class="classification" data-archive-session>
-      SESSION: NONE
-    </p>
-    <p class="classification">
-      REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
-    </p>
+      <div class="header-actions">
+        <a class="classification classification-action classification-action-search" href="/search/">
+          SEARCH
+        </a>
+        <button
+          class="classification classification-action classification-action-auth"
+          type="button"
+          data-archive-auth-toggle
+        >
+          LOG IN
+        </button>
+        <button
+          class="classification classification-action classification-action-clearance"
+          type="button"
+          data-archive-clearance
+        >
+          CLEARANCE NONE
+        </button>
+      </div>
 
-    <div class="header-actions">
-      <a class="classification classification-action" href="/search/">
-        SEARCH
-      </a>
-      <button
-        class="classification classification-action"
-        type="button"
-        data-archive-auth-toggle
-      >
-        LOG IN
-      </button>
     </div>
-
-  </div>
   </div>
 </header>
 

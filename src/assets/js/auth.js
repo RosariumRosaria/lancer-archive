@@ -30,12 +30,19 @@
 
         const badgeEl = document.querySelector("[data-archive-session]");
         const authBtn = document.querySelector("[data-archive-auth-toggle]");
+        const clearanceBtn = document.querySelector("[data-archive-clearance]");
 
         if (badgeEl) {
             badgeEl.textContent = isAuthed
                 ? `SESSION: ACTIVE • CLEARANCE L${session.clearance}${session.user ? " • " + session.user.toUpperCase() : ""
                 }`
                 : "SESSION: NONE";
+        }
+
+        if (clearanceBtn) {
+            clearanceBtn.textContent = isAuthed
+                ? `CLEARANCE L${session.clearance}`
+                : "CLEARANCE NONE";
         }
 
         if (authBtn) {
