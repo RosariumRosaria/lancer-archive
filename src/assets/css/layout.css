@@ -181,6 +181,7 @@ body.gate-pending .site-footer {
     gap: var(--space-1);
     padding: var(--space-1) var(--page-pad);
     border-top: var(--rule-width) solid var(--rule);
+    border-bottom: var(--rule-width) solid var(--rule);
     position: sticky;
     top: 0;
     z-index: 10;

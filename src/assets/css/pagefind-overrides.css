@@ -14,6 +14,13 @@
     max-width: none;
 }
 
+.pagefind-ui__form,
+.pagefind-ui__results {
+    max-width: var(--content-max);
+    margin-inline: auto;
+    text-align: left;
+}
+
 .pagefind-ui__form:before {
     display: none !important;
     content: none !important;
@@ -40,6 +47,12 @@
 .pagefind-ui__result {
     border-top-style: dashed !important;
     padding: var(--space-1) 0;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.pagefind-ui__result-thumb {
+    display: none !important;
 }
 
 .pagefind-ui__result-link {
@@ -56,6 +69,11 @@
 .pagefind-ui__result-tags,
 .pagefind-ui__result-mark {
     color: var(--ink);
+}
+
+.pagefind-ui__result-inner,
+.pagefind-ui__result-excerpt {
+    min-width: 0 !important;
 }
 
 
