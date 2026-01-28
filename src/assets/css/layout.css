@@ -57,7 +57,7 @@ body.gate-pending .site-footer {
 .site-header {
     background: var(--alert-red);
     color: var(--paper);
-    border-bottom: var(--rule-width) solid var(--rule);
+    border-bottom: var(--rule-width) solid var(--header-border);
 
     display: grid;
     grid-template-columns: auto 1fr;
@@ -180,8 +180,8 @@ body.gate-pending .site-footer {
     align-items: center;
     gap: var(--space-1);
     padding: var(--space-1) var(--page-pad);
-    border-top: var(--rule-width) solid var(--rule);
-    border-bottom: var(--rule-width) solid var(--rule);
+    border-top: var(--rule-width) solid var(--header-border);
+    border-bottom: var(--rule-width) solid var(--header-border);
     position: sticky;
     top: 0;
     z-index: 10;
