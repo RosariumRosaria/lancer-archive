@@ -344,6 +344,12 @@ body.gate-pending .site-footer {
     align-items: start;
 }
 
+@media (max-width: 900px) {
+    .shell {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .sidebar {
     position: sticky;
