@@ -78,3 +78,9 @@ body {
     font-size: var(--fs-base);
 
 }
+
+@media (max-width: 480px) {
+    body {
+        padding: var(--space-2);
+    }
+}

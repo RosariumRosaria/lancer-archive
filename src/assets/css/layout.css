@@ -320,6 +320,12 @@ body.gate-pending .site-footer {
     text-align: left;
 }
 
+@media (max-width: 480px) {
+    .site-title {
+        white-space: normal;
+    }
+}
+
 
 .dir-toggle {
     order: 4;
