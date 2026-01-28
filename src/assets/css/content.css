@@ -108,7 +108,8 @@
 
 .media-slot {
     display: block;
-    width: clamp(300px, 45vw, 400px);
+    width: min(100%, clamp(300px, 45vw, 400px));
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
     aspect-ratio: 3 / 4;
