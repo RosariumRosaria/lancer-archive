@@ -29,45 +29,40 @@
     <h1 class="site-title">
       <a href="/">OVERSIGHT ARCHIVE</a>
     </h1>
+    <div class="header-meta">
+      <p class="classification classification-session" data-archive-session>
+        SESSION: NONE
+      </p>
+      <p class="classification classification-required">
+        REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
+      </p>
+
+      <div class="header-actions">
+        <button class="classification classification-action dir-toggle" type="button" data-dir-toggle aria-expanded="false">
+          DIR
+        </button>
+        <a class="classification classification-action classification-action-search" href="/search/">
+          SEARCH
+        </a>
+        <button
+          class="classification classification-action classification-action-auth"
+          type="button"
+          data-archive-auth-toggle
+        >
+          LOG IN
+        </button>
+        <button
+          class="classification classification-action classification-action-clearance"
+          type="button"
+          data-archive-clearance
+        >
+          CL 0
+        </button>
+      </div>
+
+    </div>
   </div>
 </header>
-
-<div class="header-meta">
-  <p class="classification classification-session" data-archive-session>
-    SESSION: NONE
-  </p>
-  <p class="classification classification-required">
-    REQUIRED CLEARANCE LEVEL {{ clearance_required | default("UNSPECIFIED") }}
-  </p>
-
-  <div class="header-actions">
-    <button class="classification classification-action dir-toggle" type="button" data-dir-toggle aria-expanded="false">
-      DIR
-    </button>
-    <button
-      class="classification classification-action classification-action-search"
-      type="button"
-      onclick="location.href='/search/'"
-    >
-      SEARCH
-    </button>
-    <button
-      class="classification classification-action classification-action-auth"
-      type="button"
-      data-archive-auth-toggle
-    >
-      LOG IN
-    </button>
-    <button
-      class="classification classification-action classification-action-clearance"
-      type="button"
-      data-archive-clearance
-    >
-      CL 0
-    </button>
-  </div>
-
-</div>
 
 <div class="shell">
   <aside class="sidebar">

@@ -247,12 +247,3 @@
 .redact.is-cleared .redact-text {
     display: inline;
 }
-
-
-.smallprint {
-    margin-top: var(--space-2);
-    opacity: 0.85;
-    font-size: var(--fs-sm);
-    font-style: italic;
-    text-align: center;
-}
