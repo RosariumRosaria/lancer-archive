@@ -323,6 +323,14 @@ body.gate-pending .site-footer {
 }
 
 @media (max-width: 900px) {
+    html {
+        font-size: 15px;
+    }
+
+    :root {
+        --fs-base: 16px;
+    }
+
     .site-header {
         position: sticky;
         top: 0;
