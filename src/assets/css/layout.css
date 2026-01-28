@@ -333,7 +333,7 @@ body.gate-pending .site-footer {
 
 .shell {
     display: grid;
-    grid-template-columns: 15rem 1fr;
+    grid-template-columns: 20rem 1fr;
     gap: var(--space-3);
     align-items: start;
 }
