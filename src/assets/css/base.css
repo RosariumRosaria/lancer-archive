@@ -1,6 +1,6 @@
 :root {
     --paper: #f4f4f2;
-    --ink: #1a1a1a;
+    --ink: #222222;
     --rule: #000;
     --header-border: #3d0000;
     --header-text: #f4f4f2;
@@ -44,7 +44,7 @@
 
 body[data-theme="default"] {
     --paper: #f4f4f2;
-    --ink: #1a1a1a;
+    --ink: #222222;
     --rule: #000;
     --alert-red: #8f0001;
     --tag-gray: #636363;
@@ -55,7 +55,7 @@ body[data-theme="default"] {
 
 body[data-theme="horus"] {
     --paper: #0b0d10;
-    --ink: #e6e6e6;
+    --ink: #dddddd;
     --rule: #2a2f36;
     --alert-red: #ff2bd6;
     --tag-gray: #8aa0b5;
@@ -66,7 +66,7 @@ body[data-theme="horus"] {
 
 body[data-theme="dark"] {
     --paper: #1a1a1a;
-    --ink: #f4f4f2;
+    --ink: #e9e9e6;
     --header-text: #f4f4f2;
     --header-border: #3d0000;
     --rule: #636363;
