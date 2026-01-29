@@ -32,7 +32,7 @@ body.gate-pending .site-footer {
         position: fixed;
         top: 0;
         left: 0;
-        width: min(22rem, 85vw);
+        width: min(11rem, 42.5vw);
         height: 100vh;
         z-index: 20;
         overflow: auto;
