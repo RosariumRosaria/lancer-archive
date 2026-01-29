@@ -187,6 +187,7 @@ body.gate-pending .site-footer {
     padding: 0.15em 0.5em;
     line-height: 1;
     box-sizing: border-box;
+    margin-left: auto;
 }
 
 .classification-action-clearance:hover {
@@ -238,15 +239,19 @@ body.gate-pending .site-footer {
 }
 
 .classification-action-auth {
-    order: 2;
+    order: 1;
 }
 
 .classification-action-search {
+    order: 2;
+}
+
+.dir-toggle {
     order: 3;
 }
 
 .classification-action-clearance {
-    order: 1;
+    order: 4;
 }
 
 .terminal-row {
