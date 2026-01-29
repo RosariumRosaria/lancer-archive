@@ -166,6 +166,12 @@ body.gate-pending .site-footer {
     display: inline-flex;
 }
 
+@media (min-width: 901px) {
+    .site-header .dir-toggle {
+        display: none;
+    }
+}
+
 .site-header .classification.classification-action-clearance {
     display: inline-flex;
     cursor: default;

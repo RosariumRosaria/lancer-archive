@@ -14,39 +14,33 @@ eleventyNavigation:
   order: 2
 ---
 
-{% sectionHeader "Chen, Allison" %}
+{% sectionHeader "Lukas, Richter" %}
 OVERSEER
 {% endsectionHeader %}
 
 ### Summary
 
-Allison Chen is a senior OVERSIGHT Overseer on Reihenstadt, managing a small base on Night side.
+Lukas is recently appointed Overseer, notable for his actions in the <REDACT>.
 
-Her responsibilities include operational planning, field guidance for deployed agents, and associated administrative tasks.
-
-She's recently had a small Lancer team assigned under her purview.
+Among other duties, he handles the Lancer team assigned to Alpspitze.
 
 <div class="card">
   <div class="data-table__title">Biometric Info</div>
   <table class="data-table">
     <tbody>
-      <tr><th>Height</th><td>5'10" (178 cm)</td></tr>
-      <tr><th>Age</th><td>32</td></tr>
-      <tr><th>Hair Color</th><td>Black</td></tr>
-      <tr><th>Eye Color</th><td>Brown</td></tr>
-      <tr><th>Service Years</th><td>8</td></tr>
-      <tr><th>Clearance</th><td>Tier 4</td></tr>
+      <tr><th>Height</th><td>5'8" (173 cm)</td></tr>
+      <tr><th>Age</th><td>26</td></tr>
+      <tr><th>Hair Color</th><td>Brown</td></tr>
+      <tr><th>Eye Color</th><td>Blue</td></tr>
+      <tr><th>Service Years</th><td>5</td></tr>
+      <tr><th>Clearance</th><td>Tier 3</td></tr>
     </tbody>
   </table>
 </div>
 
 ### Background
 
-Raised in the shadow of her father, a former Interim Administrator of Reihenstadt, Chen demonstrated early ambition and academic focus.
-
-After completing her doctorate in Applied Paracausal Studies, Chen formally severed familial and civilian affiliations and transferred into OVERSIGHT service. Records indicate the transition was voluntary and expedited.
-
-Chen has served continuously as an Overseer since shortly after Reihenstadt’s reintegration with Union authority. Her early assignments within the organization focused on {% redact "anomalous material decommissioning", 3 %}, as part of post-isolation remediation efforts on the Night Side.
+Born in "little
 
 ### Status
 
