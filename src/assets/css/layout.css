@@ -52,11 +52,6 @@ body.gate-pending .site-footer {
         z-index: 15;
     }
 
-    .header-meta {
-        position: sticky;
-        top: 0;
-    }
-
 }
 
 .site-header {
@@ -471,4 +466,11 @@ body.gate-pending .site-footer {
     font-size: var(--fs-sm);
     font-style: italic;
     text-align: center;
+}
+
+@media (max-width: 900px) {
+    .header-meta {
+        position: sticky;
+        top: 0;
+    }
 }
