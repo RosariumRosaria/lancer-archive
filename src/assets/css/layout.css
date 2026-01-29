@@ -55,8 +55,8 @@ body.gate-pending .site-footer {
 }
 
 .site-header {
-    background: var(--alert-red);
-    color: var(--paper);
+    background: linear-gradient(180deg, #9a0001 0%, #7e0001 100%);
+    color: var(--header-text);
     border-bottom: var(--rule-width) solid var(--header-border);
 
     display: grid;
@@ -107,6 +107,8 @@ body.gate-pending .site-footer {
     align-items: center;
     line-height: 1;
     letter-spacing: var(--tracking-sm);
+    border-color: var(--header-text);
+    color: var(--header-text);
 }
 
 .site-title a {
@@ -135,8 +137,8 @@ body.gate-pending .site-footer {
     min-height: 2rem;
     cursor: pointer;
     background: transparent;
-    border: var(--rule-width) solid var(--paper);
-    color: var(--paper);
+    border: var(--rule-width) solid var(--header-text);
+    color: var(--header-text);
     padding: 0.15em 0.5em;
     line-height: 1;
     box-sizing: border-box;
@@ -148,14 +150,14 @@ body.gate-pending .site-footer {
 }
 
 .classification-action:hover {
-    background: var(--paper);
+    background: var(--header-text);
     color: var(--alert-red);
-    border-color: var(--paper);
+    border-color: var(--header-text);
 }
 
 .classification-action:focus-visible {
-    border-color: var(--paper);
-    outline: 2px solid var(--paper);
+    border-color: var(--header-text);
+    outline: 2px solid var(--header-text);
     outline-offset: 2px;
 }
 
@@ -168,10 +170,22 @@ body.gate-pending .site-footer {
     cursor: default;
 }
 
+.classification-action-clearance {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    background: transparent;
+    border: var(--rule-width) solid var(--header-text);
+    color: var(--header-text);
+    padding: 0.15em 0.5em;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
 .classification-action-clearance:hover {
     background: transparent;
-    color: var(--paper);
-    border-color: var(--paper);
+    color: var(--header-text);
+    border-color: var(--header-text);
 }
 
 
@@ -185,7 +199,7 @@ body.gate-pending .site-footer {
     position: sticky;
     top: 0;
     z-index: 10;
-    background: var(--dark-red);
+    background: linear-gradient(180deg, #6a0000 0%, #4b0000 100%);
     margin-inline: calc(-1 * var(--page-pad));
     margin-bottom: var(--space-3);
 }
@@ -193,6 +207,12 @@ body.gate-pending .site-footer {
 .header-meta .classification {
     font-size: var(--fs-md);
     letter-spacing: var(--tracking-sm);
+    border-color: var(--header-text);
+    color: var(--header-text);
+}
+
+.header-meta .classification-action:hover {
+    color: var(--alert-red);
 }
 
 .header-actions {
