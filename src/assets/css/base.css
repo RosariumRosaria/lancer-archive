@@ -72,7 +72,7 @@ body[data-theme="dark"] {
     --rule: #636363;
     --alert-red: #8f0001;
     --dark-red: #5e0000;
-    --tag-gray: #797979;
+    --tag-gray: #888888;
     --grid-color: rgba(99, 99, 99, 0.04);
     --panel-fill: #262626;
     --alert-focus-bg: rgba(143, 0, 1, 0.06);
