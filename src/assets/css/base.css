@@ -6,8 +6,10 @@
     --header-text: #f4f4f2;
     --alert-red: #8f0001;
     --dark-red: #700000;
+    --header-meta-grad-top: #650000;
+    --header-meta-grad-bottom: #570000;
     --tag-gray: #636363;
-    --grid-color: rgba(99, 99, 99, 0.06);
+    --grid-color: rgba(99, 99, 99, 0.04);
     --panel-fill: #ECECEA;
     --alert-focus-bg: rgba(143, 0, 1, 0.06);
 
@@ -46,7 +48,7 @@ body[data-theme="default"] {
     --rule: #000;
     --alert-red: #8f0001;
     --tag-gray: #636363;
-    --grid-color: rgba(99, 99, 99, 0.06);
+    --grid-color: rgba(99, 99, 99, 0.04);
     --panel-fill: #ECECEA;
     --alert-focus-bg: rgba(143, 0, 1, 0.06);
 }
@@ -57,7 +59,7 @@ body[data-theme="horus"] {
     --rule: #2a2f36;
     --alert-red: #ff2bd6;
     --tag-gray: #8aa0b5;
-    --grid-color: rgba(138, 160, 181, 0.06);
+    --grid-color: rgba(138, 160, 181, 0.04);
     --panel-fill: #0000000d;
     --alert-focus-bg: rgba(255, 43, 214, 0.12);
 }
@@ -71,7 +73,7 @@ body[data-theme="dark"] {
     --alert-red: #8f0001;
     --dark-red: #5e0000;
     --tag-gray: #636363;
-    --grid-color: rgba(99, 99, 99, 0.06);
+    --grid-color: rgba(99, 99, 99, 0.04);
     --panel-fill: #262626;
     --alert-focus-bg: rgba(143, 0, 1, 0.06);
 }
