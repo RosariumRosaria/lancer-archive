@@ -48,6 +48,8 @@ title: Access Terminal
     <p id="access-error" class="smallprint system-error" style="display:none;">
       ACCESS DENIED. VERIFY CREDENTIALS.
     </p>
+
+    <pre id="access-debug" class="smallprint" style="display:none; white-space: pre-wrap;"></pre>
   </form>
 
   <p class="smallprint">
@@ -65,13 +67,33 @@ title: Access Terminal
   const codeEl = document.getElementById("access-code");
   const codenameEl = document.getElementById("codename");
   const errEl = document.getElementById("access-error");
+  const debugEl = document.getElementById("access-debug");
+  const debugMode = new URLSearchParams(window.location.search).has("debug");
+
+  function updateDebug(stage, payload) {
+    if (!debugMode || !debugEl) return;
+    debugEl.style.display = "block";
+    debugEl.textContent = JSON.stringify({ stage, ...payload }, null, 2);
+  }
 
   function hideError() {
     errEl.style.display = "none";
   }
 
-  codeEl.addEventListener("input", hideError);
-  codenameEl.addEventListener("input", hideError);
+  codeEl.addEventListener("input", () => {
+    hideError();
+    updateDebug("input", {
+      codenameRaw: codenameEl.value,
+      codeRaw: codeEl.value,
+    });
+  });
+  codenameEl.addEventListener("input", () => {
+    hideError();
+    updateDebug("input", {
+      codenameRaw: codenameEl.value,
+      codeRaw: codeEl.value,
+    });
+  });
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -87,6 +109,12 @@ title: Access Terminal
       .trim()
       .toUpperCase();
 
+    updateDebug("submit", {
+      codenameRaw: codenameEl.value,
+      codeRaw: codeEl.value,
+      codename,
+      code,
+    });
 
     const record = window.ARCHIVE_ACCESS?.[code];
  
