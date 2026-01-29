@@ -181,7 +181,7 @@ body.gate-pending .site-footer {
     display: inline-flex;
     align-items: center;
     min-height: 2rem;
-    background: var(--paper);
+    background: var(--panel-fill-dark);
     border: 1px solid var(--header-text);
     color: var(--header-text);
     padding: 0.15em 0.5em;
@@ -191,7 +191,7 @@ body.gate-pending .site-footer {
 }
 
 .classification-action-clearance:hover {
-    background: var(--paper);
+    background: var(--panel-fill-dark);
     color: var(--header-text);
     border-color: var(--header-text);
 }
