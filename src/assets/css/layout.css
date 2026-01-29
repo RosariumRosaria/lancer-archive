@@ -33,7 +33,7 @@ body.gate-pending .site-footer {
         top: 0;
         left: 0;
         width: min(14rem, 55vw);
-        height: 100vh;
+        height: 100dvh;
         z-index: 20;
         overflow: auto;
         background: var(--panel-fill);
@@ -380,6 +380,10 @@ body.gate-pending .site-footer {
     .shell {
         grid-template-columns: 1fr;
     }
+
+    .sidebar {
+        max-height: 100vh;
+    }
 }
 
 
@@ -472,5 +476,9 @@ body.gate-pending .site-footer {
     .header-meta {
         position: sticky;
         top: 0;
+    }
+
+    .sidebar {
+        max-height: 100vh;
     }
 }
