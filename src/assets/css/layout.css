@@ -163,12 +163,12 @@ body.gate-pending .site-footer {
 }
 
 .site-header .dir-toggle {
-    display: inline-flex;
+    display: none;
 }
 
-@media (min-width: 901px) {
+@media (max-width: 900px) {
     .dir-toggle {
-        display: none;
+        display: inline-flex;
     }
 }
 
