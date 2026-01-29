@@ -238,7 +238,7 @@ body.gate-pending .site-footer {
     display: none !important;
 }
 
-.classification-action-auth {
+.dir-toggle {
     order: 1;
 }
 
@@ -246,7 +246,7 @@ body.gate-pending .site-footer {
     order: 2;
 }
 
-.dir-toggle {
+.classification-action-auth {
     order: 3;
 }
 
@@ -361,7 +361,7 @@ body.gate-pending .site-footer {
 
 
 .dir-toggle {
-    order: 3;
+    order: 1;
 }
 
 .nav-link.is-active {
