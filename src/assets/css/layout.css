@@ -390,7 +390,7 @@ body.gate-pending .site-footer {
 .sidebar {
     position: sticky;
     top: var(--space-3);
-    max-height: calc(100vh - (3 * var(--space-3)));
+    max-height: calc(100vh - (2 * var(--space-3)));
     height: auto;
     overflow: auto;
     border: var(--rule-width) solid var(--rule);
