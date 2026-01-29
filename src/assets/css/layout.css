@@ -162,12 +162,12 @@ body.gate-pending .site-footer {
     outline-offset: 2px;
 }
 
-.site-header .dir-toggle {
+.header-actions .dir-toggle {
     display: none;
 }
 
 @media (max-width: 900px) {
-    .dir-toggle {
+    .header-actions .dir-toggle {
         display: inline-flex;
     }
 }
