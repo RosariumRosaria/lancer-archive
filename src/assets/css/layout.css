@@ -167,7 +167,7 @@ body.gate-pending .site-footer {
 }
 
 @media (min-width: 901px) {
-    .site-header .dir-toggle {
+    .dir-toggle {
         display: none;
     }
 }
