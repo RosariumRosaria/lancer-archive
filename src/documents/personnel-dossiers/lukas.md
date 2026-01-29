@@ -1,15 +1,15 @@
 ---
 layout: layouts/base.njk
-title: PERSONNEL DOSSIER CHEN
-document_id: PD-CHEN
+title: PERSONNEL DOSSIER LUKAS
+document_id: PD-LUKAS
 clearance_required: 1
-permalink: /documents/personnel-CHEN/
+permalink: /documents/personnel-lukas/
 tags: ["personnel-dossier"]
 portrait: /assets/images/chen.jpg
-portrait_alt: Portrait of Allison Chen
+portrait_alt: Portrait of Lukas Richter
 portrait_title: Portrait
 eleventyNavigation:
-  key: PD-CHEN
+  key: PD-LUKAS
   parent: PD
   order: 2
 ---
