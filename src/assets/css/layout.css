@@ -52,6 +52,11 @@ body.gate-pending .site-footer {
         z-index: 15;
     }
 
+    .header-meta {
+        position: sticky;
+        top: 0;
+    }
+
 }
 
 .site-header {
@@ -204,8 +209,7 @@ body.gate-pending .site-footer {
     padding: var(--space-1) var(--page-pad);
     border-top: var(--rule-width) solid var(--header-border);
     border-bottom: var(--rule-width) solid var(--header-border);
-    position: sticky;
-    top: 0;
+    position: static;
     z-index: 10;
     background: linear-gradient(180deg, var(--header-meta-grad-top) 0%, var(--header-meta-grad-bottom) 100%);
     margin-inline: calc(-1 * var(--page-pad));
