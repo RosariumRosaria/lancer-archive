@@ -77,8 +77,8 @@ body.gate-pending .site-footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 4rem;
-    width: 4rem;
+    height: 3.8rem;
+    width: 3.8rem;
     margin: var(--space-1) 0 var(--space-1) var(--space-2);
     padding: 0;
     border: none;
