@@ -77,8 +77,8 @@ body.gate-pending .site-footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 4.2rem;
+    width: 4.2rem;
     margin: var(--space-1) 0 var(--space-1) var(--space-2);
     padding: 0;
     border: none;
@@ -94,7 +94,7 @@ body.gate-pending .site-footer {
 
 .site-header h1 {
     margin: 0;
-    font-size: clamp(1.5rem, 4vw, calc(var(--fs-xl) * 1.1));
+    font-size: clamp(1.4rem, 3.6vw, calc(var(--fs-xl) * 1.05));
     letter-spacing: var(--big-sm);
 }
 
