@@ -40,21 +40,21 @@ Among other duties, he handles the Lancer team assigned to Alpspitze.
 
 ### Background
 
-Born in "little
+Lukas was raised in Kleinkrone, the district of Rehienstadt sitting at the base of the spire to Heimkrone.
+
+His family is well regarded for their military service prior to the reunionification with Union, which ma
 
 ### Status
 
 - Active.  
 - Currently stationed on Reihenstadt.  
-- Assigned as liaison to newly transferred LANCER team.
+- Assigned as an Overseer for the defense of Alpspitze
 
 ### Notes
 
-- Subject demonstrates high tolerance for sustained operational workloads.  
-- Displays limited interest in local political reconciliation efforts.  
+- Entered the Organization following a transfer from Heimkrone.
 - Personal history prior to OVERSIGHT service is considered non-operational.  
-- Subject cleared for continued exposure to {% redact "metavault MUNDLIFARI", 3 %} under monitored conditions.  
-- Subject was granted transfer to a new Kalenderkarte group following formal request.
+- Subject reacted negatively to {% redact "metavault MUNDLIFARI", 3 %}
 
 <div class="card">
   <div class="data-table__title">Portrait</div>

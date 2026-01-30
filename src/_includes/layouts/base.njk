@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="icon" href="/assets/images/oversightlogofav.svg" type="image/svg+xml">
@@ -90,7 +88,7 @@
 
 <footer class="site-footer" data-pagefind-ignore="all">
   <p>Document ID: {{ document_id }}</p>
-  <p>Required Clearance: {{ clearance_required }}</p>
+  <p>Required Clearance: {{ clearance_required | default(0) }}</p>
 </footer>
 
 <script src="/assets/js/auth-config.js"></script>
