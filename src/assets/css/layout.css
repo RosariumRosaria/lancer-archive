@@ -1,8 +1,8 @@
 .page {
-    max-width: var(--content-max);
-    min-width: min(var(--content-max), 100%);
+    width: min(var(--content-max), 100%);
     margin-inline: auto;
 }
+
 
 body.gate-pending .shell,
 body.gate-pending .site-footer {
