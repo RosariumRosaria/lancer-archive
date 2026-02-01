@@ -84,6 +84,8 @@ Not everything in this wiki is the word of God. There will be unreliable authors
   </ul>
 </details>
 
+<br>
+
 <div class="card">
 
 {% sectionHeader "Campaign" %}
