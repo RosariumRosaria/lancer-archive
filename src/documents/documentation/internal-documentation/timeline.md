@@ -21,7 +21,7 @@ A Concise Summary of the History of Reihenstadt
   <li><span class="timeline__date">4412u</span>Introduction of the Kalenderkarte system.</li>
   <li><span class="timeline__date">4601u</span>Skip Gate Alpspitze suffers a major disruption.</li>
   <li><span class="timeline__date">4611u</span>Local efforts prove insufficient to restore gate function. Resources are redirected toward long-term survival.</li>
-  <li><span class="timeline__date">4982u</span>Union long-haul vessel UHS-77 ("A Casket, An Icebox") arrives to investigate and reports a thriving colony.</li>
+  <li><span class="timeline__date">4982u</span>Union long-haul vessel UNS-77 ("A Casket, An Icebox") arrives to investigate and reports a thriving colony.</li>
   <li><span class="timeline__date">4985u</span>With assistance from the crew of the Icebox, Alpspitze is successfully repaired.</li>
   <li><span class="timeline__date">4990u</span>Union Administrator Franz von Coln is appointed at local request.</li>
   <li><span class="timeline__date">4992u</span>OVERSIGHT established as part of the reintegration efforts.</li>
