@@ -17,7 +17,7 @@ eleventyNavigation:
 A Brief Overview
 {% endsectionHeader %}
 
-A hub for files on persons of interest, both external and internal.
+A hub for files on persons of interest, both external and internal to OVERSIGHT.
 
 <div class="card">
   <h2>Index</h2>

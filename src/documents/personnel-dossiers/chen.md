@@ -67,6 +67,7 @@ Chen has served continuously as an Overseer since shortly after Reihenstadt’s 
 <div class="card">
   <div class="data-table__title">Portrait</div>
   <img class="media-slot" src="/assets/images/chen.jpg" alt="Portrait of Allison Chen">
+  <p class="smallprint">Art credit: <a href="https://x.com/KinjaLee/status/1846673726026228100">KinjaLee</a></p>
 </div>
 
 ---

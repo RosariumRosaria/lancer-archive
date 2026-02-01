@@ -69,6 +69,7 @@ Records from the Dawnline Shore campaigns list Kiora as assigned to peacekeeping
 <div class="card">
   <div class="data-table__title">Portrait</div>
   <img class="media-slot" src="/assets/images/kiora.png" alt="Portrait of Kiora">
+  <p class="smallprint">Art credit: Solstice Rain</p>
 </div>
 
 ---
