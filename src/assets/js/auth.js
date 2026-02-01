@@ -40,35 +40,39 @@
 
         if (authBtn) {
             authBtn.textContent = isAuthed ? "LOG OUT" : "LOG IN";
+            authBtn.title = isAuthed
+                ? "Terminate active session"
+                : "Initiate authentication";
         }
+    }
 
 
-        function handleAuthToggle() {
-            const session = getSession();
+    function handleAuthToggle() {
+        const session = getSession();
 
-            if (isAuthenticated(session)) {
-                clearSession();
-                applyHeaderBadge();
-                window.location.href = "/login/";
-            } else {
-                window.location.href = "/login/";
-            }
-        }
-
-        window.ArchiveAuth = {
-            getSession,
-            setSession,
-            clearSession,
-            isAuthenticated,
-            applyHeaderBadge,
-        };
-
-        document.addEventListener("DOMContentLoaded", () => {
+        if (isAuthenticated(session)) {
+            clearSession();
             applyHeaderBadge();
+            window.location.href = "/login/";
+        } else {
+            window.location.href = "/login/";
+        }
+    }
 
-            const authBtn = document.querySelector("[data-archive-auth-toggle]");
-            if (authBtn) {
-                authBtn.addEventListener("click", handleAuthToggle);
-            }
-        });
-    }) ();
+    window.ArchiveAuth = {
+        getSession,
+        setSession,
+        clearSession,
+        isAuthenticated,
+        applyHeaderBadge,
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+        applyHeaderBadge();
+
+        const authBtn = document.querySelector("[data-archive-auth-toggle]");
+        if (authBtn) {
+            authBtn.addEventListener("click", handleAuthToggle);
+        }
+    });
+})();
