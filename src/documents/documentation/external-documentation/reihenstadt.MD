@@ -18,11 +18,11 @@ See the world where the sun stands still!
 
 ### Our Story
 
-Founded in 4390u during one of the waves of SecComm expansion, Reihenstadt has a long and storied history. Even for the hardy descendants of the Old Danube settlers, life on Reihenstadt required significant adjustment.
+Founded in 4390u during one of the waves of SecComm expansion, Reihenstadt has a long and storied history. Even for the those hardy settlers from the Old Danube, life on Reihenstadt required significant adjustment.
 
 The early colonies faced periods of unrest, division, and hardship, exacerbated by the absence of a traditional day-night cycle. In response, the people of Reihenstadt developed a unique culture and way of life. Just in time, too. Our skip gate, <em>Alpspitze</em>, soon went on the <em>Alpfritze</em>, suffering a prolonged and unexpected systems failure.
 
-Recently, after several centuries of isolation, the gate was successfully repaired with a little help from our friends aboard the Icebox!
+Recently, after several centuries of isolation, the gate was successfully repaired with a little help from our friends aboard the Icebox a Union exploratory vessel!
 
 Now, we stand ready to rejoin Union and welcome you with open arms, whether you arrive for commerce, pleasure, or to begin a new life.
 
@@ -31,16 +31,16 @@ Now, we stand ready to rejoin Union and welcome you with open arms, whether you 
   Grab your Kalenderkarte
   {% endsectionHeader %}
 
-  Unlike most Union worlds, Reihenstadt is tidally locked. This might take a bit of getting used to for off worlders like you. But don't worry, instead of the Sun, we rely on <em>Kalenderkarten</em>!
+  Unlike most Union worlds, Reihenstadt is tidally locked. This might take a bit of getting used to for off worlders like you. But don't worry, instead of the Sun telling us what to do, we rely on <em>Kalenderkarten</em>!
 
   To reduce strain on public infrastructure, ensure social cohesion, and optimize productivity, all citizens and visitors are issued a personal <em>Kalenderkarte</em>. For the duration of your stay, this card helps guide your waking hours, assigned work periods, leisure windows, and which public festivities you are formally invited to attend.
 
-  Please ensure your Kalenderkarte remains on your person at all times, or securely synchronized with your COMP/CON. Failure to adhere to your assigned schedule may result in disorientation, administrative delay, or reassignment of privileges in extreme cases.
+  Please ensure your Kalenderkarte remains on your person at all times, or is securely synchronized with your COMP/CON. Failure to adhere to your assigned schedule may result in disorientation, administrative delay, or reassignment of privileges in extreme cases.
 </div>
 
 ### One Planet, Two Capitals
 
-While much of the day-to-day bureaucracy that keeps our home running so smoothly is handled groundside, the most important decisions are made by the high-ups aboard <em>Heimkrone</em>.
+While much of the day-to-day bureaucracy that keeps our home running so smoothly is handled groundside, the most important decisions are made by the high-ups aboard our station, <em>Heimkrone</em>.
 
 The orbital elevator makes travel between station and surface effortless, allowing Heimkrone to serve as both Reihenstadt’s primary port of entry and the seat of planetary leadership.
 
