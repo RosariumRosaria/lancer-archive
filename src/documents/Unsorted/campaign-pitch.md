@@ -8,7 +8,7 @@ tags: ["unsorted"]
 
 <div class="card">
 
-{% sectionHeader “Lancer” %}
+{% sectionHeader "Lancer" %}
 
 System & Rules
 
@@ -28,7 +28,7 @@ Additionally, the system really rewards teamwork. There’s a lot of room to pla
 
 </div>
 
-{% sectionHeader “Lancer” %}
+{% sectionHeader "Lancer" %}
 Setting
 {% endsectionHeader %}
 
@@ -44,7 +44,7 @@ You are [Lancers](/documents/internal/lancers/), elite mech pilots, a mix of ace
 
 <div class="card">
 
-{% sectionHeader Campaign %}
+{% sectionHeader "Campaign" %}
 
 General Overview
 
@@ -62,7 +62,7 @@ The players are [Lancers](/documents/internal/lancers/), a mix of ones from [Uni
 
 </div>
 
-{% sectionHeader “Campaign” %}
+{% sectionHeader "Campaign" %}
 Tone and Inspirations
 {% endsectionHeader %}
 
