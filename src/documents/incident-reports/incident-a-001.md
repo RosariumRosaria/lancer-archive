@@ -17,11 +17,11 @@ Skip Gate Down
 
 ### Objective
 
-Following disruption to Skip Gate *Alpspitze* (lesser-class blink gate), ALPHA team was deployed to investigate and restore operational status.
+Following disruption to Skip Gate *Alpspitze*, ALPHA team was deployed to investigate and restore operations.
 
 ### Summary
 
-ALPHA team deployed via unmanned dropship to the structure’s surface and initiated uplink from the primary black-box telemetry store.
+ALPHA team deployed via unmanned dropship to the structure’s surface and initiated uplink from the primary black-box site.
 
 Telemetry indicates interference consistent with GOI {% redact 'Horizon', 2%}. Hostile frames were engaged and neutralized during the operation, resulting in minor secondary damage to *Alpspitze*.
 
@@ -52,14 +52,14 @@ Skip Gate access restored. Sustained damage limits jump-window tolerance to narr
 
 - **CALLSIGN:** BULLWARK-2  
   **TYPE:** IPS-N DRAKE  
-  **STATUS:** {% redact 'Recovered from Snapshot', 3%}
+  **STATUS:** {% redact 'Recovered from Snapshot', 4%}
 
 ### Assessment
 
-Overall, ALPHA team performance is acceptable. While minor, damage to *Alpspitze* could have been avoided; personnel are remanded to secondary training for corrective review.
+Overall, ALPHA team performance is acceptable. While minor, damage to *Alpspitze* could have been avoided.
+
+Personnel and Overseer are to be remanded for secondary training and corrective review.
 
 Continue to monitor GOI {% redact 'Horizon', 2 %} activity for further disturbances.
 
 ---
-{% set hash = "TEST" %}
-{% include "widgets/passcode.njk" %}

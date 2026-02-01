@@ -28,7 +28,6 @@
         const session = getSession();
         const isAuthed = isAuthenticated(session);
 
-        const badgeEl = document.querySelector("[data-archive-session]");
         const authBtn = document.querySelector("[data-archive-auth-toggle]");
         const clearanceBtn = document.querySelector("[data-archive-clearance]");
 
@@ -53,10 +52,9 @@
         if (isAuthenticated(session)) {
             clearSession();
             applyHeaderBadge();
-            window.location.href = "/login/";
-        } else {
-            window.location.href = "/login/";
         }
+
+        window.location.href = "/login/";
     }
 
     window.ArchiveAuth = {
