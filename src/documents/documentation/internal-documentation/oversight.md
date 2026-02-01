@@ -1,18 +1,18 @@
 ---
 layout: layouts/base.njk
-title: Oversight
+title: OVERSIGHT
 document_id: ID-OVERSIGHT
 clearance_required: 0
-permalink: /documents/internal/Oversight/
+permalink: /documents/internal/oversight/
 tags: ["internal-doc"]
 eleventyNavigation:
   key: ID-OVERSIGHT
-  title: Oversight
+  title: OVERSIGHT
   parent: ID
   order: 3
 ---
 
-{% sectionHeader "Oversight" %}
+{% sectionHeader "OVERSIGHT" %}
 Watchdog for the Reintegration of Reihenstadt.
 {% endsectionHeader %}
 

@@ -33,6 +33,6 @@ Record deployed frames and equipment. Note losses, recoveries, damage assessment
 
 ### Assessment
 
-To be provided by Oversight Command.
+To be provided by OVERSIGHT Command.
 
 ---

@@ -46,7 +46,7 @@ Incident reports are to be submitted following completion of field operations or
    Record all deployed frames and equipment. Note losses, recoveries, damage assessments, and current operational status.
 
 6. **Assessment**  
-   Reserved for Oversight Command. Field personnel should not include recommendations or conclusions in this section unless explicitly directed.
+   Reserved for OVERSIGHT Command. Field personnel should not include recommendations or conclusions in this section unless explicitly directed.
 
 ---
 

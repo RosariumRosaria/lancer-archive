@@ -3,14 +3,8 @@
 layout: layouts/base.njk
 title: Campaign Pitch
 permalink: /documents/unsorted/pitch/
-tags: [“unsorted”]
-
+tags: ["unsorted"]
 ---
-
-layout: layouts/base.njk
-title: Campaign Pitch
-permalink: /documents/unsorted/pitch/
-tags: [“unsorted”]
 
 <div class="card">
 
