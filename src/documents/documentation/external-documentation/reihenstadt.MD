@@ -22,7 +22,7 @@ Founded in 4390u during one of the waves of SecComm expansion, Reihenstadt has a
 
 The early colonies faced periods of unrest, division, and hardship, exacerbated by the absence of a traditional day-night cycle. In response, the people of Reihenstadt developed a unique culture and way of life. Just in time, too. Our skip gate, <em>Alpspitze</em>, soon went on the <em>Alpfritze</em>, suffering a prolonged and unexpected systems failure.
 
-Recently, after several centuries of isolation, the gate was successfully repaired with a little help from our friends aboard the Icebox a Union exploratory vessel!
+Recently, after several centuries of isolation, the gate was successfully repaired with a little help from our friends aboard the Icebox a [Union](/documents/internal/union/) exploratory vessel!
 
 Now, we stand ready to rejoin Union and welcome you with open arms, whether you arrive for commerce, pleasure, or to begin a new life.
 

@@ -38,7 +38,7 @@ Union is not the only power in the galaxy either. Vast [megacorporations](/docum
 
 This is where you come in.
 
-You are [Lancers](/documents/internal/lancers/), elite mech pilots deployed when situations are too volatile, politically sensitive, or deniable for conventional forces. As Union prefers a light touch, you will often be sent in alone or with minimal support. You are expected to be more than soldiers, you're diplomats, explorers, spies, and heroes.
+You are [Lancers](/documents/internal/lancers/), elite mech pilots deployed when situations are too volatile, politically sensitive, or isolated for conventional forces. As Union prefers a light touch, you will often be sent in alone or with minimal support. You are expected to be more than soldiers, you're diplomats, explorers, spies, and heroes.
 
 <div class="card">
 

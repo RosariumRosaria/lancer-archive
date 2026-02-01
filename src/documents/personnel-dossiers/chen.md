@@ -20,7 +20,7 @@ OVERSEER
 
 ### Summary
 
-Allison Chen is a senior OVERSIGHT Overseer on Reihenstadt, managing a small archival base on Night side.
+Allison Chen is a senior [OVERSIGHT](/documents/internal/Oversight/) Overseer on Reihenstadt, managing a small archival base on Night side.
 
 Her responsibilities include operational planning, field guidance for deployed frames, and associated administrative tasks as part of base upkeep.
 

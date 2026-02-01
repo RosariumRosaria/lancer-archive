@@ -18,7 +18,7 @@ Plus One
 
 ### Overview
 
-While Union encompasses countless corporations and polities, few exert influence comparable to those detailed in this article.
+While [Union](/documents/internal/union/) encompasses countless corporations and polities, few exert influence comparable to those detailed in this article.
 
 These entities are notable not only for their dominance in industrial, commercial, and medical technologies, but for their status as states unto themselves.
 

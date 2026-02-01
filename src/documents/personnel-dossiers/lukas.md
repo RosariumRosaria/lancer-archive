@@ -42,7 +42,7 @@ Among other duties, he oversees the Lancer team assigned to Alpspitze.
 
 ### Background
 
-Lukas was raised in Kleinkrone, a district of Reihenstadt, sitting at the base of the spire to Heimkrone. His family is well regarded for their military service prior to the reunification with Union, with notable relatives in several high-ranking positions. He was groomed for a similar role from a young age, with his tutors remarking on his aptitude for tactics and efficiency.
+Lukas was raised in Kleinkrone, a district of Reihenstadt, sitting at the base of the spire to Heimkrone. His family is well regarded for their military service prior to the reunification with [Union](/documents/internal/union/), with notable relatives in several high-ranking positions. He was groomed for a similar role from a young age, with his tutors remarking on his aptitude for tactics and efficiency.
 
 His transfer to OVERSIGHT came as a minor shock, as few expected Heimkrone to relinquish such a promising cadet. Since his transfer, he’s served in a handful of roles, primarily in managing local mechanized warfare assets and providing analysis on several GOIs.
 

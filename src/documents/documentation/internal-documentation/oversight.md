@@ -48,7 +48,7 @@ In recent years, OVERSIGHT has assumed responsibility for the remaining operatio
 
 Most of OVERSIGHT’s mandate is executed through its field teams.
 
-- **Response teams** are composed of soldiers, covert operatives, and Lancers tasked with direct intervention and rapid response.
+- **Response teams** are composed of soldiers, covert operatives, and [Lancers](/documents/internal/lancers/) tasked with direct intervention and rapid response.
 
 - **Civic teams** pursue resolution through legal, academic, and cultural channels. These include lawyers, historians, and educators assigned to documentation, arbitration, and long-term stabilization efforts.
 

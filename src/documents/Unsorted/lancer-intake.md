@@ -83,7 +83,7 @@ Your character should be able to answer most of these, but they can also develop
 {% endsectionHeader %}
 
 **Do you know anyone currently aboard the ship?**
-**Have you served with any of the other player's Lancers before?**
+**Have you served with any of the other player's [Lancers](/documents/internal/lancers/) before?**
 
 <span class="guidance">Everyone should know at least one or two people in the universe, but they don't need to be on the ship/in system.</span>
 </div>

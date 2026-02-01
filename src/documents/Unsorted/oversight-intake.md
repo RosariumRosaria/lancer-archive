@@ -5,7 +5,7 @@ permalink: /documents/unsorted/intake-oversight/
 tags: ["unsorted"]
 ---
 
-{% sectionHeader "OVERSIGHT INTAKE QUESTIONNAIRE" %}
+{% sectionHeader "[OVERSIGHT](/documents/internal/Oversight/) INTAKE QUESTIONNAIRE" %}
 {% endsectionHeader %}
 
 Please keep the following questions in mind for creating a character.
