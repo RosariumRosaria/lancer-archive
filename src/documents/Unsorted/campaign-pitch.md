@@ -9,9 +9,7 @@ tags: ["unsorted"]
 <div class="card">
 
 {% sectionHeader "Lancer" %}
-
 System & Rules
-
 {% endsectionHeader %}
 
 Lancer describes itself as a “mud and lasers”, which I think fits. It’s a mix of mythic fantasy, gritty mech fighting, and strange scifi concepts.
@@ -45,20 +43,18 @@ You are [Lancers](/documents/internal/lancers/), elite mech pilots, a mix of ace
 <div class="card">
 
 {% sectionHeader "Campaign" %}
-
 General Overview
-
 {% endsectionHeader %}
 
 For an in-universe briefing, go here: {TODO}.
 
 The start of the campaign will be set on a recently recontacted world, [Reihenstadt](/documents/external/reihenstadt/).
 
-Originally founded by a previous [Union](/documents/internal/union/) government, [Reihenstadt](/documents/external/reihenstadt/)’s blink gate failed hundreds of years ago, which led to the planet diverging culturally and morally from the wider [Union](/documents/internal/union/).
+Originally founded by a previous Union government, Reihenstadt’s blink gate failed hundreds of years ago, which led to the planet diverging culturally and morally from the wider Union.
 
-After rising tensions during reintegration, the [Union](/documents/internal/union/) administrator of the planet, Franz von Coln, disappeared without a trace.
+After rising tensions during reintegration, the Union administrator of the planet, Franz von Coln, disappeared without a trace.
 
-The players are [Lancers](/documents/internal/lancers/), a mix of ones from [Union](/documents/internal/union/) as a whole and a few locals. Your initial task will be assist [OVERSIGHT](/documents/internal/Oversight/) in the investigation of von Coln. There's also been reports of pirate raids, blink gate outages, and political intrigue that [Union](/documents/internal/union/) wants you to look into.
+The players are Lancers, a mix of ones from Union as a whole and a few locals. Your initial task will be assist [OVERSIGHT](/documents/internal/Oversight/) in the investigation of von Coln. There's also been reports of pirate raids, blink gate outages, and political intrigue that Union wants you to look into.
 
 </div>
 
