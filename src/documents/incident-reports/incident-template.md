@@ -5,10 +5,6 @@ document_id: IR-000
 clearance_required: 0
 permalink: /documents/incident-000/
 tags: ["incident-report"]
-eleventyNavigation:
-  key: IR-000
-  parent: IR
-  order: 0
 ---
 
 {% sectionHeader "INCIDENT REPORT 000" %}
@@ -25,7 +21,7 @@ Provide a concise overview of the incident, including mission context and signif
 
 ### Outcome
 
-Document mission outcome, including objective completion status and immediate results.
+Document mission outcome, including the status of objectives and immediate results.
 
 ### Personnel
 

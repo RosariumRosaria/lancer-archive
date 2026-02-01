@@ -42,9 +42,9 @@ Among other duties, he oversees the Lancer team assigned to Alpspitze.
 
 ### Background
 
-Lukas was raised in Kleinkrone, a district of Reihenstadt, sitting at the base of the spire to Heimkrone. His family is well regarded for their military service prior to the reunification with Union, with notable relatives in several high-ranking positions. He was groomed for military service from a young age, with his tutors remarking on his aptitude for tactics and efficiency.
+Lukas was raised in Kleinkrone, a district of Reihenstadt, sitting at the base of the spire to Heimkrone. His family is well regarded for their military service prior to the reunification with Union, with notable relatives in several high-ranking positions. He was groomed for a similar role from a young age, with his tutors remarking on his aptitude for tactics and efficiency.
 
-His transfer to OVERSIGHT came as a minor shock, as few expected Heimkrone to relinquish such a promising cadet. Since his transfer, he’s served in a handful of roles, primarily in managing local mechanized warfare assets.
+His transfer to OVERSIGHT came as a minor shock, as few expected Heimkrone to relinquish such a promising cadet. Since his transfer, he’s served in a handful of roles, primarily in managing local mechanized warfare assets and providing analysis on several GOIs.
 
 When OVERSIGHT was tasked with the defense of Alpspitze, he was deemed the obvious choice. This was proven to be correct during recent raids, though he was noted for a lack of restraint.
 
@@ -57,7 +57,7 @@ When OVERSIGHT was tasked with the defense of Alpspitze, he was deemed the obvio
 ### Notes
 
 - Entered service following a transfer from Heimkrone.
-- Subject reacted negatively to {% redact "metavault MUNDLIFARI", 3 %}
+- Subject reacted negatively to {% redact "metavault MUNDLIFARI", 3 %}, limit exposure.
 - His family was noted in their opposition to the appointment of Administrator Franz von Coln.
 
 <div class="card">

@@ -44,9 +44,9 @@ Following an extended service record across multiple naval postings, Kiora has r
 
 Kiora's service history includes multiple shipboard assignments, both in advisory, armament guidance, and electronic warfare roles.
 
-Performance documentation indicates consistently positive evaluations, proving both to improve morale and to have a clear head under pressure.
+Performance reviews indicates consistently positive evaluations, highlightin improved crew morale and a clear head under pressure.
 
-Records from the Dawnline Shore campaigns list Kiora as assigned to peacekeeping operations, where she received commendations for restraint and cooling tensions.
+Records from the Dawnline Shore campaigns list Kiora as assigned to peacekeeping operations, where she received praise for restraint and cooling tensions.
 
 ---
 
@@ -64,7 +64,7 @@ Records from the Dawnline Shore campaigns list Kiora as assigned to peacekeeping
 - Requires less frequent cycling than typical for her lineage.  
 - Demonstrates atypical preference for classic music (primarily dating from ~4300u).
 - Served throughout Dawnline Shore peacekeeping campaigns with favorable assessments.
-- {% redact "Possible trauma from cascade experience caused by Horizon insurgents", 3 %}.
+- {% redact "Possible trauma from cascade experience caused by Horizon insurgents", 3 %}.  Should be monitored.
 
 <div class="card">
   <div class="data-table__title">Portrait</div>

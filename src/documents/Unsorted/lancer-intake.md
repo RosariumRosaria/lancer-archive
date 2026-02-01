@@ -48,14 +48,14 @@ Your character should be able to answer most of these, but they can also develop
 **Examples:**
 
 - Hacking enemy frames with electronic warfare?
-- Providing supportive fire, with lasers, missles, railguns, or fire?
+- Providing supportive fire, with lasers, missiles, railguns, or fire?
 - Acting as a shield for your allies?
 - A skirmishing darting across the field?
 - Providing repairs and assistance to your allies?
 - Laying down mines, holograms, or some other form of area control?
 - <span class="horus">No maze is more terrible than yours. We should weep, but with joy, or sorrow?</span>
 - Providing information with advanced scouting systems?
-- Wielding a massive sword, hammer, or drill in meele?
+- Wielding a massive sword, hammer, or drill in melee?
 - Some other role?
 
 </div>

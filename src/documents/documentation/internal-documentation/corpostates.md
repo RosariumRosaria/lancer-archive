@@ -92,6 +92,6 @@ HORUS is an oddity among the various pan-galactic corpro-states, outfitters, and
 
 HORUS frames are esoteric constructs, specialized to control the battlefield – hacking, inflicting statuses, and dealing heat. They vary wildly in form, function, and design.
 
-These universally field mysterious, unreguated, greyspace technologies – perfect for pilots seeking a technological edge that few other organizations can provide. They seem to focus on crowd control, individual unit management, and terribly powerful systems.
+These universally field mysterious, unregulated, greyspace technologies – perfect for pilots seeking a technological edge that few other organizations can provide. They seem to focus on crowd control, individual unit management, and terribly powerful systems.
 
 ---

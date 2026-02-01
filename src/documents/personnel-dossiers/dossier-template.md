@@ -5,10 +5,6 @@ document_id: PD-000
 clearance_required: 1
 permalink: /documents/personnel-000/
 tags: ["personnel-dossier"]
-eleventyNavigation:
-  key: PD-000
-  parent: PD
-  order: 0
 ---
 
 {% sectionHeader "PERSON OF INTEREST" %}
