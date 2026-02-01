@@ -73,6 +73,9 @@ The same goes for the overall tone. Humor and roleplay are very welcome, but I a
 Players will have access to different information and incentives. This is intentional and part of the campaign’s structure. It is meant to create tension and perspective, not to pit players against one another unless everyone involved is comfortable with it.
 
 Not everything in this wiki is the word of God. There will be unreliable authors, incomplete records, and at times outright propaganda. If you notice something that seems odd, it's probably intended! Unless I messed up.
+
+I might add a tag for detailing if an article is in-universe or out of universe.
+
 <details class="spoiler">
   <summary>Inspirations</summary>
 
