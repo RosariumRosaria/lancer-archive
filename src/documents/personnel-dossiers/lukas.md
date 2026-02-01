@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 title: PERSONNEL DOSSIER LUKAS
 document_id: PD-LUKAS
-clearance_required: 2
+clearance_required: 1
 permalink: /documents/personnel-lukas/
 tags: ["personnel-dossier"]
 portrait: /assets/images/chen.jpg
