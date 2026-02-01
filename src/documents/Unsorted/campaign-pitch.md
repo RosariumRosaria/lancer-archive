@@ -55,9 +55,9 @@ For an in universe briefing, go here {insert link}
 
 The start of the campaign will be set on a recently recontacted world, Reihenstadt.
 
-Originally founded by a prior Union goverment, Reihenstadt's blink gate failed hundreds of years ago, which led to them diverging culturally and morally.
+Originally founded by a prior Union government, Reihenstadt's blink gate failed hundreds of years ago, which led to them diverging culturally and morally.
 
-After rising tensions during reintegration, the Union administor of the planet, Fran von Koln, disapperaed without a trace.
+After rising tensions during reintegration, the Union administrator of the planet, Fran von Koln, disappeared without a trace.
 
 The players are Lancers, a mix of ones from Union as a whole and a few locals.
 

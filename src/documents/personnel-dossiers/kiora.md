@@ -44,7 +44,7 @@ Following an extended service record across multiple naval postings, Kiora has r
 
 Kiora's service history includes multiple shipboard assignments, both in advisory, armament guidance, and electronic warfare roles.
 
-Performance reviews indicates consistently positive evaluations, highlightin improved crew morale and a clear head under pressure.
+Performance reviews indicates consistently positive evaluations, highlighting improved crew morale and a clear head under pressure.
 
 Records from the Dawnline Shore campaigns list Kiora as assigned to peacekeeping operations, where she received praise for restraint and cooling tensions.
 
