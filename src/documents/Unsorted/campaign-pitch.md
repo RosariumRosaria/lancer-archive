@@ -30,7 +30,7 @@ Additionally, the system strongly rewards teamwork. There’s room to play frame
 Setting
 {% endsectionHeader %}
 
-Lancer is set in the far future, after humanity has survived and rebuilt from multiple near-apocalypses—largely of its own making. There are no hostile alien empires to blame. We ruined Earth, nearly destroyed ourselves more than once, and the scars of those failures still shape human space.
+Lancer is set in the far future, after humanity has survived and rebuilt from multiple near-apocalypses, largely of its own making. There are no hostile alien empires to blame. We ruined Earth, nearly destroyed ourselves more than once, and the scars of those failures still shape human space.
 
 Today, most human-colonized territory falls under [Union](/documents/internal/union/), an idealistic, socialist, interstellar government that genuinely strives to do good. In practice, it often stumbles under the weight of its own scale, bureaucracy, and the unresolved legacy of its imperial past.
 
