@@ -18,11 +18,11 @@ Mechanically, the game splits into out-of-mech and in-mech play.
 
 Out of combat, Lancer is very rules-light and significantly simpler than systems like D&D. Most actions are resolved with straightforward dice rolls, leaving plenty of room for player agency.
 
-Once you are in a mech, things become more complex. Mech combat is tactical, played on a hex grid, and involves multiple interacting systems.
+Once you are in a mech, things become more complex. Mech combat is tactical, played on a hex grid, and involves multiple interacting systems like heat management, hacking, and pilot talents.
 
-It isn’t overwhelming, but it is more involved than standard 5E combat. Thankfully, there’s a great site called COMP/CON that can really help.
+It isn’t overwhelming, but it is more involved than standard 5E combat. Thankfully, there’s a great site called COMP/CON that can really help keep track of a lot. As always, we will learn by doing and I don't expect you to memorize it all before hand.
 
-Additionally, the system strongly rewards teamwork. There’s room to play frames dedicated to supporting allies, and many mechs are designed to compensate for others’ weaknesses. You might play a teleporter tossing allies across the battlefield, a spotter calling shots for an unwieldy artillery piece. Or of course, just punch things with a very large metallic fist.
+Additionally, the system strongly rewards teamwork. There’s room to play frames dedicated to supporting allies, and many mechs are designed to compensate for others’ weaknesses. You might play a teleporter tossing allies across the battlefield, a spotter calling shots for an unwieldy artillery piece. Or of course, just punch things with a very large metallic fist (maybe into the minefield your allies just placed).
 
 </div>
 
@@ -32,7 +32,7 @@ Setting
 
 Lancer is set in the far future, after humanity has survived and rebuilt from multiple near-apocalypses, largely of its own making. There are no hostile alien empires to blame. We ruined Earth, nearly destroyed ourselves more than once, and the scars of those failures still shape human space.
 
-Today, most human-colonized territory falls under [Union](/documents/internal/union/), an idealistic, socialist, interstellar government that genuinely strives to do good. In practice, it often stumbles under the weight of its own scale, bureaucracy, and the unresolved legacy of its imperial past.
+Today, most human colonized territory falls under [Union](/documents/internal/union/), an idealistic, socialist, interstellar government that genuinely strives to do good. In practice, it often stumbles under the weight of its own scale, bureaucracy, and the legacy of its imperial past.
 
 Union is not the only power in the galaxy either. Vast [megacorporations](/documents/internal/corpos/), while technically subordinate to Union, constantly maneuver for influence and control. The Karrakin Trade Baronies are nominally a constituent member of Union as well, but some noble houses openly violate the Pillars and exploit their underclasses. Beyond them lie pirates, isolated colonies, cults, would-be despots, and <span class="horus">stranger things still</span>.
 
@@ -54,10 +54,9 @@ Originally founded by a prior administration, Reihenstadt’s blink gate failed 
 
 Following renewed contact and a tense reintegration process, the Union-appointed administrator, Franz von Coln, disappeared without a trace.
 
-Your initial assignment is to assist [OVERSIGHT](/documents/internal/Oversight/) in determining what happened to von Coln, and why. Concurrent reports of pirate activity, blink gate instability, and internal political maneuvering suggest the situation is more complex than a simple disappearance.
+Your initial assignment is to assist [OVERSIGHT](/documents/internal/Oversight/), as somewhat shadowy join venture between Union and reihenstadt. You'll be tasked with determining what happened to von Coln, and why. Concurrent reports of pirate activity, blink gate instability, and internal political maneuvering suggest the situation is more complex than a simple disappearance.
 
-You may play either a local native to Reihenstadt or an offworlder deployed by Union.
-
+You may play either a local native to Reihenstadt or an offworlder deployed by Union. I'm also open to you coming up with a new place entirely!
 </div>
 
 {% sectionHeader "Campaign" %}
@@ -68,11 +67,11 @@ I want this campaign and our characters to be grounded in the setting, without b
 
 It’s fine (and encouraged!) for characters to be somewhat strange, have funny backstory elements, and be weird. I’m not aiming for a gritty story about war and loss, but I do want it to feel like everyone is part of a cohesive world.
 
-The same goes for the overall tone. Humor and roleplay are very welcome, but I also want there to be moments of genuine tension. Expect a mix of encounters focused on combat, others centered on investigation and roleplay, and occasional downtime sessions where you get to explore more ordinary life.
+The same goes for the overall tone. Humor and light hearted roleplay are very welcome, but I also want there to be moments of genuine tension. Expect a mix of encounters focused on combat, others centered on investigation and roleplay, and occasional downtime sessions where you get to explore more ordinary life.
 
 Players will have access to different information and incentives. This is intentional and part of the campaign’s structure. It is meant to create tension and perspective, not to pit players against one another unless everyone involved is comfortable with it.
 
-Not everything in this wiki is the word of God. There will be unreliable authors, incomplete records, and at times outright propaganda. Discrepancies are something to engage with (unless I just messed up)
+Not everything in this wiki is the word of God. There will be unreliable authors, incomplete records, and at times outright propaganda. Discrepancies are something to engage with (unless I just messed up, that happens too)
 
 I might add a tag for detailing if an article is in-universe or out of universe, to help keep track.
 
@@ -98,6 +97,8 @@ I put together a few question lists to help shape your character and their backs
 
 * [Lancer Intake Questionnaire](/documents/unsorted/intake/)
 * [OVERSIGHT Intake Questionnaire](/documents/unsorted/intake-oversight/)
+
+Feel free to peruse both, the OVERSIGHT one is meant for Reihenstadters.
 
 Apart from that, I’d love to know what you want out of the campaign.
 
