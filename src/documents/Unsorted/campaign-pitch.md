@@ -56,7 +56,7 @@ Following renewed contact and a tense reintegration process, the Union-appointed
 
 Your initial assignment is to assist [OVERSIGHT](/documents/internal/Oversight/) in determining what happened to von Coln, and why. Concurrent reports of pirate activity, blink gate instability, and internal political maneuvering suggest the situation is more complex than a simple disappearance.
 
-You may play either a local native to Reihenstadt or an offworlder deployed by Union. Both perspectives are intentional, and both will matter.
+You may play either a local native to Reihenstadt or an offworlder deployed by Union.
 
 </div>
 
@@ -72,9 +72,9 @@ The same goes for the overall tone. Humor and roleplay are very welcome, but I a
 
 Players will have access to different information and incentives. This is intentional and part of the campaign’s structure. It is meant to create tension and perspective, not to pit players against one another unless everyone involved is comfortable with it.
 
-Not everything in this wiki is the word of God. There will be unreliable authors, incomplete records, and at times outright propaganda. If you notice something that seems odd, it's probably intended! Unless I messed up.
+Not everything in this wiki is the word of God. There will be unreliable authors, incomplete records, and at times outright propaganda. Discrepancies are something to engage with (unless I just messed up)
 
-I might add a tag for detailing if an article is in-universe or out of universe.
+I might add a tag for detailing if an article is in-universe or out of universe, to help keep track.
 
 <details class="spoiler">
   <summary>Inspirations</summary>
