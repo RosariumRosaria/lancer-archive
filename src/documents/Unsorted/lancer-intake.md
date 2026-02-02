@@ -21,7 +21,7 @@ Your character should be able to answer most of these, but they can also develop
 {% endsectionHeader %}
 
 **Who are you? What are you like?**
-<span class="guidance">What is your personality? What do you like/dislike.</span>
+<span class="guidance">What is your personality? What do you like/dislike?</span>
 
 <span class="guidance">How old are you? What do you look like? Are you a baseline human, or do you have some genetic tampering/drift/machine parts?</span>
 
@@ -48,10 +48,10 @@ Your character should be able to answer most of these, but they can also develop
 **Examples:**
 
 - Hacking enemy frames with electronic warfare?
-- Providing supportive fire, with lasers, missiles, railguns, or fire?
+- Providing supportive fire, with lasers, missiles, railguns, or flames?
 - Acting as a shield for your allies?
-- A skirmishing darting across the field?
-- Providing repairs and assistance to your allies?
+- A skirmisher darting across the field?
+- Providing repairs and assistance?
 - Laying down mines, holograms, or some other form of area control?
 - <span class="horus">No maze is more terrible than yours. We should weep, but with joy, or sorrow?</span>
 - Providing information with advanced scouting systems?
@@ -70,7 +70,7 @@ Your character should be able to answer most of these, but they can also develop
 
 <span class="guidance">Were you formally trained, promoted suddenly on the battlefield, rescued from a corporate gene lab, or perhaps you're just a nepo baby?</span>
 
-**How long have you been one?**
+**How long have you been a Lancer?**
 
 <span class="guidance">Are you a grizzled veteran or some fresh faced recruit?</span>
 

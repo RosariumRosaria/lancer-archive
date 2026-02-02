@@ -54,7 +54,7 @@ Originally founded by a prior administration, Reihenstadt’s blink gate failed 
 
 Following renewed contact and a tense reintegration process, the Union-appointed administrator, Franz von Coln, disappeared without a trace.
 
-Your initial assignment is to assist [OVERSIGHT](/documents/internal/Oversight/), as somewhat shadowy join venture between Union and reihenstadt. You'll be tasked with determining what happened to von Coln, and why. Concurrent reports of pirate activity, blink gate instability, and internal political maneuvering suggest the situation is more complex than a simple disappearance.
+Your initial assignment is to assist [OVERSIGHT](/documents/internal/Oversight/), a somewhat shadowy joint venture between Union and Reihenstadt. You'll be tasked with determining what happened to von Coln, and why. Concurrent reports of pirate activity, blink gate instability, and internal political maneuvering suggest the situation is more complex than a simple disappearance.
 
 You may play either a local native to Reihenstadt or an offworlder deployed by Union. I'm also open to you coming up with a new place entirely!
 </div>
@@ -63,7 +63,7 @@ You may play either a local native to Reihenstadt or an offworlder deployed by U
 Tone and Inspirations
 {% endsectionHeader %}
 
-I want this campaign and our characters to be grounded in the setting, without being relentlessly serious.
+I want this campaign and your characters to be grounded in the setting, without being relentlessly serious.
 
 It’s fine (and encouraged!) for characters to be somewhat strange, have funny backstory elements, and be weird. I’m not aiming for a gritty story about war and loss, but I do want it to feel like everyone is part of a cohesive world.
 
@@ -73,7 +73,7 @@ Players will have access to different information and incentives. This is intent
 
 Not everything in this wiki is the word of God. There will be unreliable authors, incomplete records, and at times outright propaganda. Discrepancies are something to engage with (unless I just messed up, that happens too)
 
-I might add a tag for detailing if an article is in-universe or out of universe, to help keep track.
+I might add a tag for detailing if an article is in or out of universe, to help keep track.
 
 <details class="spoiler">
   <summary>Inspirations</summary>
