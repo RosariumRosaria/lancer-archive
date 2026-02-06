@@ -20,29 +20,6 @@ Line Commander
 
 ### Summary
 
----
-
-layout: layouts/base.njk
-title: PERSONNEL DOSSIER ABELARD
-document_id: PD-ABELARD
-clearance_required: 3
-permalink: /documents/personnel-abelard/
-tags: ["personnel-dossier"]
-portrait: /assets/images/abelard.jpg
-portrait_alt: Portrait of Abelard Winser
-portrait_title: Portrait
-eleventyNavigation:
-  key: PD-ABELARD
-  parent: PD
-  order: 2
----
-
-{% sectionHeader "Winser, Abelard" %}
-Line Commander
-{% endsectionHeader %}
-
-### Summary
-
 Abelard is a noted Union Commander and captain of the UNS-BB *Like a Starry Night*.
 
 He has served across numerous campaigns over the last several centuries, most recently in the Dawnline Shore.
