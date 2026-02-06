@@ -24,9 +24,7 @@ Abelard is a noted Union Commander and captain of the UNS-BB *Like a Starry Nigh
 
 He has served across numerous campaigns over the last several centuries, most recently in the Dawnline Shore.
 
-He is currently on sabbatical, touring the fringe on a publicity campaign.
-
-His tour emphasizes Union unity, integration, and the upholding of the Pillars on frontier worlds.
+He is currently on sabbatical, touring the fringe on a publicity campaign. The campaign focuses on spreading compliance to the Pillars on frontier worlds.
 
 <div class="card">
   <div class="data-table__title">Biometric Info</div>
