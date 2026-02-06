@@ -47,7 +47,7 @@ His tour emphasizes Union unity, integration, and the upholding of the Pillars o
 
 Born on Cradle, Abelard joined the Union Naval Department at a young age.
 
-Despite scoring highly on entrance exams, he insisted on beginning his service as an Ensign. He was promoted rapidly despite this
+Despite scoring highly on entrance exams, he insisted on beginning his service as an Ensign. He was promoted rapidly despite this.
 
 Most of his career has been spent on the fringes, frequently commanding first-response teams. As a result, he has worked closely with Lancers and ground-based forces throughout his service.
 
@@ -69,45 +69,3 @@ Most of his career has been spent on the fringes, frequently commanding first-re
   <div class="data-table__title">Portrait</div>
   <img class="media-slot" src="/assets/images/abelard.jpg" alt="Portrait of Abelard Winser">
 </div>
-
----
-
-<div class="card">
-  <div class="data-table__title">Biometric Info</div>
-  <table class="data-table">
-    <tbody>
-      <tr><th>Height</th><td>6'3" (191 cm)</td></tr>
-      <tr><th>Age</th><td>76</td></tr>
-      <tr><th>Real-Time Age</th><td>267</td></tr>
-      <tr><th>Hair Color</th><td>Gray</td></tr>
-      <tr><th>Eye Color</th><td>Gray</td></tr>
-      <tr><th>Service Years</th><td>51</td></tr>
-    </tbody>
-  </table>
-</div>
-
-### Background
-
-Born in Cradle, Abelard joined the Union Naval Department at a young age.
-
-Despite scoring highly on entrance exams, he insisted on beginning his service as an Ensign. He was promoted rapidly despite this.
-
-### Status
-
-- Active.  
-- Currently touring on Reihenstadt.  
-- His ship is in deep storage, awaiting retrofitting.
-
-### Notes
-
-- Lost his hand in the Dawnline Shore. Keeps his augmentic one rather than a cloned replacement.
-- Union loyalist, pushing for deeper integration on Reihenstadt.
-- Often works with an anti-HA caucus in CentComm.
-- Allegedly funded ungrateful rebellions against House Kiros.
-
-<div class="card">
-  <div class="data-table__title">Portrait</div>
-  <img class="media-slot" src="/assets/images/abelard.jpg" alt="Portrait of Abelard Winser">
-</div>
-
----
